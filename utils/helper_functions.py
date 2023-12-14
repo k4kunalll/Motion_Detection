@@ -16,7 +16,7 @@ def add_filters(frame):
     global first_frame, next_frame, delay_counter
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     # Blur it to remove camera noise (reducing false positives)
-    gray = cv2.GaussianBlur(gray, (21, 21), 0)
+    gray = cv2.GaussianBlur(gray, __APP_SETTINGS__.BLUR_KERNEL, 0)
     # If the first frame is nothing, initialise it
     if first_frame is None:
         first_frame = gray
@@ -30,9 +30,10 @@ def add_filters(frame):
 
 
 def calc_diff(first_frame, next_frame):
+    DILATION_KERNEL = __APP_SETTINGS__.DILATION_KERNEL
     # Compare the two frames, find the difference
     frame_delta = cv2.absdiff(first_frame, next_frame)
-    thresh = cv2.threshold(frame_delta, 20, 255, cv2.THRESH_BINARY)[1]
+    thresh = cv2.threshold(frame_delta, DILATION_KERNEL[0], DILATION_KERNEL[1], cv2.THRESH_BINARY)[1]
     # Fill in holes via dilate(), and find contours of the thesholds
     thresh = cv2.dilate(thresh, None, iterations=2)
     return thresh

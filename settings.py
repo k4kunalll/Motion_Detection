@@ -12,9 +12,11 @@ __APP_SETTINGS__.MIN_SIZE_FOR_MOVEMENT = 3
 
 # Minimum length of time where no motion is detected it should take
 #(in program cycles) for the program to declare that there is no movement
-__APP_SETTINGS__.MOVEMENT_DETECTED_PERSISTENCE = 20
+__APP_SETTINGS__.MOVEMENT_DETECTED = 5
 
 __APP_SETTINGS__.DOTS_HISTORY = 300
 
-__APP_SETTINGS__.ROI_XY_MIN = (357,466)
-__APP_SETTINGS__.ROI_XY_MAX = (2038,1103)
+__APP_SETTINGS__.ROI_XY_MIN = (0,0)#(357,466)
+__APP_SETTINGS__.ROI_XY_MAX = (999999999,999999999) #(2038,1103)
+
+__APP_SETTINGS__.VIDEO_PATH = "generated_videos"

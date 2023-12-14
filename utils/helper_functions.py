@@ -2,6 +2,9 @@ import cv2
 from settings import __APP_SETTINGS__
 from collections import deque
 import numpy as np
+import os
+from datetime import date
+import time
 
 first_frame = None
 next_frame = None
@@ -44,3 +47,23 @@ def bbox(thresh_dilate, area_thresh):
         x, y, w, h = cv2.boundingRect(cnt)
         if cv2.contourArea(cnt) > area_thresh:
             return np.array([x, y, x + w, y + h])
+        
+
+
+
+
+def make_vid(frame_width, frame_height, image_list, fps=3):
+    current_date = date.today()
+    current_time = int(time.time())
+
+    video = cv2.VideoWriter(os.path.join(__APP_SETTINGS__.VIDEO_PATH, f"{current_date}-{current_time}.avi"), cv2.VideoWriter_fourcc(*'XVID'), 5, (frame_width, frame_height))
+
+    for i in range(len(image_list)):
+        video.write(image_list[i])
+
+    video.release()
+    print('Video Saved')
+
+
+
+    os.path.join(__APP_SETTINGS__.VIDEO_PATH, f"{current_date}-{current_time}.avi")

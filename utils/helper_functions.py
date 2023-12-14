@@ -3,12 +3,14 @@ from settings import __APP_SETTINGS__
 from collections import deque
 import numpy as np
 import os
-from datetime import date
+from datetime import date,datetime
 import time
+import pandas as pd
 
 first_frame = None
 next_frame = None
 delay_counter = 0
+centre_point = deque([],maxlen=__APP_SETTINGS__.DOTS_HISTORY)
 
 def add_filters(frame):
     global first_frame, next_frame, delay_counter
@@ -50,14 +52,10 @@ def bbox(thresh_dilate, area_thresh):
         
 
 
-
-
-def make_vid(frame_width, frame_height, image_list, fps=3):
+def make_vid(frame_width, frame_height, image_list, fps=10):
     current_date = date.today()
     current_time = int(time.time())
-
-    video = cv2.VideoWriter(os.path.join(__APP_SETTINGS__.VIDEO_PATH, f"{current_date}-{current_time}.avi"), cv2.VideoWriter_fourcc(*'XVID'), 5, (frame_width, frame_height))
-
+    video = cv2.VideoWriter(os.path.join(__APP_SETTINGS__.VIDEO_PATH, f"{current_date}-{current_time}.avi"), cv2.VideoWriter_fourcc(*'XVID'), fps, (frame_width, frame_height))
     for i in range(len(image_list)):
         video.write(image_list[i])
 
@@ -65,5 +63,27 @@ def make_vid(frame_width, frame_height, image_list, fps=3):
     print('Video Saved')
 
 
+def filter_bboxes(frame, boxes_coor, motion_start, motion_end):
+    global centre_point
+    centroid = (int((boxes_coor[0]+boxes_coor[2])/2),int((boxes_coor[1]+boxes_coor[3])/2))
 
-    os.path.join(__APP_SETTINGS__.VIDEO_PATH, f"{current_date}-{current_time}.avi")
+    if __APP_SETTINGS__.ROI_XY_MIN[0] < centroid[0] < __APP_SETTINGS__.ROI_XY_MAX[0] and __APP_SETTINGS__.ROI_XY_MIN[1] < centroid[1] < __APP_SETTINGS__.ROI_XY_MAX[1]:
+        motion_start = motion_start+1
+        if motion_start>=1:
+            motion_end = 0
+            centre_point.append(centroid)
+            cv2.rectangle(frame, (boxes_coor[0],boxes_coor[1]), (boxes_coor[2],boxes_coor[3]), (0, 255, 0), 2)
+
+    for i in range(len(centre_point)-1):
+        if centre_point[i][1] - centre_point[i+1][1] < 0:
+            # print(centre_point[i][1] - centre_point[i+1][1], centre_point[i][0] - centre_point[i+1][0])
+            cv2.circle(frame,centre_point[i],1,(0, 0, 255), 3)
+    return frame, motion_start, motion_end
+
+    
+def excel_generator():
+    data_dict = [{"Date":date.today(),
+                "Time":datetime.now().strftime("%H:%M:%S")}]
+
+    df = pd.DataFrame.from_dict(data_dict)
+    df.to_csv(os.path.join(__APP_SETTINGS__.EXCEL_DIR, __APP_SETTINGS__.EXCEL_NAME), index=False, header=True, mode="a")

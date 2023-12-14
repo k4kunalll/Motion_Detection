@@ -4,3 +4,4 @@ videos
 *.ipynb
 tempfiles
 generated_videos
+__pycache__

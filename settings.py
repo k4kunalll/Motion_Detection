@@ -2,6 +2,8 @@ from easydict import EasyDict as edict
 
 __APP_SETTINGS__ = edict()
 
+__APP_SETTINGS__.RTSP_LINK = "videos/Demo.mp4"
+
 __APP_SETTINGS__.DOTS_HISTORY = 300
 
 __APP_SETTINGS__.ROI_XY_MIN = (0,0)#(357,466)

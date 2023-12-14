@@ -68,4 +68,4 @@ def main(video_path):
     cv2.destroyAllWindows()
 
 if __name__ == "__main__":
-    main("videos/Demo.mp4")
+    main(__APP_SETTINGS__.RTSP_LINK)

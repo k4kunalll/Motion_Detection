@@ -56,6 +56,8 @@ def bbox(thresh_dilate, area_thresh):
 def make_vid(frame_width, frame_height, image_list, fps=10):
     current_date = date.today()
     current_time = int(time.time())
+    if not os.path.exists(__APP_SETTINGS__.VIDEO_PATH):
+        os.makedirs(__APP_SETTINGS__.VIDEO_PATH)
     video = cv2.VideoWriter(os.path.join(__APP_SETTINGS__.VIDEO_PATH, f"{current_date}-{current_time}.avi"), cv2.VideoWriter_fourcc(*'XVID'), fps, (frame_width, frame_height))
     for i in range(len(image_list)):
         video.write(image_list[i])
@@ -81,10 +83,19 @@ def filter_bboxes(frame, boxes_coor, motion_start, motion_end):
             cv2.circle(frame,centre_point[i],1,(0, 0, 255), 3)
     return frame, motion_start, motion_end
 
-    
+
 def excel_generator():
+    if not os.path.exists(__APP_SETTINGS__.EXCEL_DIR):
+        os.makedirs(__APP_SETTINGS__.EXCEL_DIR)
+    if not os.path.exists(os.path.join(__APP_SETTINGS__.EXCEL_DIR,__APP_SETTINGS__.EXCEL_NAME)):
+        df = pd.DataFrame(columns=['Date','Time'])
+        df.to_csv(os.path.join(__APP_SETTINGS__.EXCEL_DIR,__APP_SETTINGS__.EXCEL_NAME), index=False, header=True)
+
     data_dict = [{"Date":date.today(),
                 "Time":datetime.now().strftime("%H:%M:%S")}]
-
     df = pd.DataFrame.from_dict(data_dict)
-    df.to_csv(os.path.join(__APP_SETTINGS__.EXCEL_DIR, __APP_SETTINGS__.EXCEL_NAME), index=False, header=True, mode="a")
+    df.to_csv(os.path.join(__APP_SETTINGS__.EXCEL_DIR,__APP_SETTINGS__.EXCEL_NAME), index=False, header=False, mode="a")
+
+
+
+    

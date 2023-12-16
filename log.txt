@@ -1,0 +1,3942 @@
+frame_bool first False
+FrameNo: 1
+frame_bool 2nd False
+---------------> 1
+0 1 None
+frame_bool first False
+FrameNo: 2
+frame_bool 2nd False
+---------------> 2
+0 2 None
+frame_bool first False
+FrameNo: 3
+frame_bool 2nd False
+---------------> 3
+0 3 None
+frame_bool first False
+FrameNo: 4
+frame_bool 2nd False
+---------------> 4
+0 4 None
+frame_bool first False
+FrameNo: 5
+frame_bool 2nd False
+---------------> 5
+0 5 None
+frame_bool first False
+FrameNo: 6
+frame_bool 2nd False
+---------------> 6
+0 6 None
+frame_bool first False
+FrameNo: 7
+frame_bool 2nd False
+---------------> 7
+0 7 None
+frame_bool first False
+FrameNo: 8
+frame_bool 2nd False
+---------------> 8
+0 8 None
+frame_bool first False
+FrameNo: 9
+frame_bool 2nd False
+---------------> 9
+0 9 None
+frame_bool first False
+FrameNo: 10
+frame_bool 2nd False
+---------------> 10
+0 10 None
+frame_bool first False
+FrameNo: 11
+frame_bool 2nd False
+---------------> 11
+0 11 None
+frame_bool first False
+FrameNo: 12
+frame_bool 2nd False
+---------------> 12
+0 12 None
+frame_bool first False
+FrameNo: 13
+frame_bool 2nd False
+---------------> 13
+0 13 None
+frame_bool first False
+FrameNo: 14
+frame_bool 2nd False
+---------------> 14
+0 14 None
+frame_bool first False
+FrameNo: 15
+frame_bool 2nd False
+---------------> 15
+0 15 None
+frame_bool first False
+FrameNo: 16
+frame_bool 2nd False
+---------------> 16
+0 16 None
+frame_bool first False
+FrameNo: 17
+frame_bool 2nd False
+---------------> 17
+0 17 None
+frame_bool first False
+FrameNo: 18
+frame_bool 2nd False
+---------------> 18
+0 18 None
+frame_bool first False
+FrameNo: 19
+frame_bool 2nd False
+---------------> 19
+0 19 None
+frame_bool first False
+FrameNo: 20
+frame_bool 2nd False
+---------------> 0
+0 20 None
+frame_bool first False
+FrameNo: 21
+frame_bool 2nd False
+---------------> 0
+0 21 None
+frame_bool first False
+FrameNo: 22
+frame_bool 2nd False
+---------------> 0
+0 22 None
+frame_bool first False
+FrameNo: 23
+frame_bool 2nd False
+---------------> 0
+0 23 None
+frame_bool first False
+FrameNo: 24
+frame_bool 2nd False
+---------------> 0
+0 24 None
+frame_bool first False
+FrameNo: 25
+frame_bool 2nd False
+---------------> 0
+0 25 None
+frame_bool first False
+FrameNo: 26
+frame_bool 2nd False
+---------------> 0
+0 26 None
+frame_bool first False
+FrameNo: 27
+frame_bool 2nd False
+---------------> 0
+0 27 None
+frame_bool first False
+FrameNo: 28
+frame_bool 2nd False
+---------------> 0
+0 28 None
+frame_bool first False
+FrameNo: 29
+frame_bool 2nd False
+---------------> 0
+0 29 None
+frame_bool first False
+FrameNo: 30
+frame_bool 2nd False
+---------------> 0
+0 30 None
+frame_bool first False
+FrameNo: 31
+frame_bool 2nd False
+---------------> 0
+0 31 None
+frame_bool first False
+FrameNo: 32
+frame_bool 2nd False
+---------------> 0
+0 32 None
+frame_bool first False
+FrameNo: 33
+frame_bool 2nd False
+---------------> 0
+0 33 None
+frame_bool first False
+motion_end 33
+FrameNo: 34
+frame_bool 2nd False
+---------------> 0
+0 34 None
+frame_bool first False
+motion_end 34
+FrameNo: 35
+frame_bool 2nd False
+---------------> 0
+0 35 None
+frame_bool first False
+FrameNo: 36
+frame_bool 2nd False
+---------------> 0
+0 36 None
+frame_bool first False
+FrameNo: 37
+frame_bool 2nd False
+---------------> 0
+0 37 None
+frame_bool first False
+FrameNo: 38
+frame_bool 2nd False
+---------------> 0
+0 38 None
+frame_bool first False
+FrameNo: 39
+frame_bool 2nd False
+---------------> 0
+0 39 None
+frame_bool first False
+FrameNo: 40
+frame_bool 2nd False
+---------------> 0
+0 40 None
+frame_bool first False
+FrameNo: 41
+frame_bool 2nd False
+---------------> 0
+0 41 None
+frame_bool first False
+FrameNo: 42
+frame_bool 2nd False
+---------------> 0
+0 42 None
+frame_bool first False
+FrameNo: 43
+frame_bool 2nd False
+---------------> 0
+0 43 None
+frame_bool first False
+FrameNo: 44
+frame_bool 2nd False
+---------------> 0
+0 44 None
+frame_bool first False
+FrameNo: 45
+frame_bool 2nd False
+---------------> 0
+0 45 None
+frame_bool first False
+FrameNo: 46
+frame_bool 2nd False
+---------------> 0
+0 46 None
+frame_bool first False
+FrameNo: 47
+frame_bool 2nd False
+---------------> 0
+0 47 None
+frame_bool first False
+FrameNo: 48
+frame_bool 2nd False
+---------------> 0
+0 48 None
+frame_bool first False
+FrameNo: 49
+frame_bool 2nd False
+---------------> 0
+0 49 None
+frame_bool first False
+FrameNo: 50
+frame_bool 2nd False
+---------------> 0
+0 50 None
+frame_bool first False
+FrameNo: 51
+frame_bool 2nd False
+---------------> 0
+0 51 None
+frame_bool first False
+FrameNo: 52
+frame_bool 2nd False
+---------------> 0
+0 52 None
+frame_bool first False
+FrameNo: 53
+frame_bool 2nd False
+---------------> 0
+0 53 None
+frame_bool first False
+FrameNo: 54
+frame_bool 2nd False
+---------------> 0
+0 54 None
+frame_bool first False
+FrameNo: 55
+frame_bool 2nd False
+---------------> 0
+0 55 None
+frame_bool first False
+FrameNo: 56
+frame_bool 2nd False
+---------------> 0
+0 56 None
+frame_bool first False
+FrameNo: 57
+frame_bool 2nd False
+---------------> 0
+0 57 None
+frame_bool first False
+FrameNo: 58
+frame_bool 2nd False
+---------------> 0
+0 58 None
+frame_bool first False
+FrameNo: 59
+frame_bool 2nd False
+---------------> 0
+0 59 None
+frame_bool first False
+FrameNo: 60
+frame_bool 2nd False
+---------------> 0
+0 60 None
+frame_bool first False
+FrameNo: 61
+frame_bool 2nd False
+---------------> 0
+0 61 None
+frame_bool first False
+FrameNo: 62
+frame_bool 2nd False
+---------------> 0
+0 62 None
+frame_bool first False
+FrameNo: 63
+frame_bool 2nd False
+---------------> 0
+0 63 None
+frame_bool first False
+FrameNo: 64
+frame_bool 2nd False
+---------------> 0
+0 64 None
+frame_bool first False
+FrameNo: 65
+frame_bool 2nd False
+---------------> 0
+0 65 None
+frame_bool first False
+FrameNo: 66
+frame_bool 2nd False
+---------------> 0
+0 66 None
+frame_bool first False
+FrameNo: 67
+frame_bool 2nd False
+---------------> 0
+0 67 None
+frame_bool first False
+FrameNo: 68
+frame_bool 2nd False
+---------------> 0
+0 68 None
+frame_bool first False
+FrameNo: 69
+frame_bool 2nd False
+---------------> 0
+0 69 None
+frame_bool first False
+FrameNo: 70
+frame_bool 2nd False
+---------------> 0
+0 70 None
+frame_bool first False
+FrameNo: 71
+frame_bool 2nd False
+---------------> 0
+0 71 None
+frame_bool first False
+FrameNo: 72
+frame_bool 2nd False
+---------------> 0
+0 72 None
+frame_bool first False
+FrameNo: 73
+frame_bool 2nd False
+---------------> 0
+0 73 None
+frame_bool first False
+FrameNo: 74
+frame_bool 2nd False
+---------------> 0
+0 74 None
+frame_bool first False
+FrameNo: 75
+frame_bool 2nd False
+---------------> 0
+0 75 None
+frame_bool first False
+FrameNo: 76
+frame_bool 2nd False
+---------------> 0
+0 76 None
+frame_bool first False
+FrameNo: 77
+frame_bool 2nd False
+---------------> 0
+0 77 None
+frame_bool first False
+FrameNo: 78
+frame_bool 2nd False
+---------------> 0
+0 78 None
+frame_bool first False
+FrameNo: 79
+frame_bool 2nd False
+---------------> 0
+0 79 None
+frame_bool first False
+FrameNo: 80
+frame_bool 2nd False
+---------------> 0
+0 80 None
+frame_bool first False
+FrameNo: 81
+frame_bool 2nd False
+---------------> 0
+0 81 None
+frame_bool first False
+FrameNo: 82
+frame_bool 2nd False
+---------------> 0
+0 82 None
+frame_bool first False
+FrameNo: 83
+frame_bool 2nd False
+---------------> 0
+0 83 None
+frame_bool first False
+FrameNo: 84
+frame_bool 2nd False
+---------------> 0
+0 84 None
+frame_bool first False
+FrameNo: 85
+frame_bool 2nd False
+---------------> 0
+0 85 None
+frame_bool first False
+FrameNo: 86
+frame_bool 2nd False
+---------------> 0
+0 86 None
+frame_bool first False
+FrameNo: 87
+frame_bool 2nd False
+---------------> 0
+0 87 None
+frame_bool first False
+FrameNo: 88
+frame_bool 2nd False
+---------------> 0
+0 88 None
+frame_bool first False
+FrameNo: 89
+frame_bool 2nd False
+---------------> 0
+0 89 None
+frame_bool first False
+FrameNo: 90
+frame_bool 2nd False
+---------------> 0
+0 90 None
+frame_bool first False
+FrameNo: 91
+frame_bool 2nd False
+---------------> 0
+0 91 None
+frame_bool first False
+FrameNo: 92
+frame_bool 2nd False
+---------------> 0
+0 92 None
+frame_bool first False
+FrameNo: 93
+frame_bool 2nd False
+---------------> 0
+0 93 None
+frame_bool first False
+FrameNo: 94
+frame_bool 2nd False
+---------------> 0
+0 94 None
+frame_bool first False
+FrameNo: 95
+frame_bool 2nd False
+---------------> 0
+0 95 None
+frame_bool first False
+FrameNo: 96
+frame_bool 2nd False
+---------------> 0
+0 96 None
+frame_bool first False
+motion_end 96
+FrameNo: 97
+frame_bool 2nd False
+---------------> 0
+0 97 None
+frame_bool first False
+FrameNo: 98
+frame_bool 2nd False
+---------------> 0
+0 98 None
+frame_bool first False
+FrameNo: 99
+frame_bool 2nd False
+---------------> 0
+0 99 None
+frame_bool first False
+FrameNo: 100
+frame_bool 2nd False
+---------------> 0
+0 100 None
+frame_bool first False
+FrameNo: 101
+frame_bool 2nd False
+---------------> 0
+0 101 None
+frame_bool first False
+FrameNo: 102
+frame_bool 2nd False
+---------------> 0
+0 102 None
+frame_bool first False
+FrameNo: 103
+frame_bool 2nd False
+---------------> 0
+0 103 None
+frame_bool first False
+FrameNo: 104
+frame_bool 2nd False
+---------------> 0
+0 104 None
+frame_bool first False
+FrameNo: 105
+frame_bool 2nd False
+---------------> 0
+0 105 None
+frame_bool first False
+FrameNo: 106
+frame_bool 2nd False
+---------------> 0
+0 106 None
+frame_bool first False
+FrameNo: 107
+frame_bool 2nd False
+---------------> 0
+0 107 None
+frame_bool first False
+FrameNo: 108
+frame_bool 2nd False
+---------------> 0
+0 108 None
+frame_bool first False
+FrameNo: 109
+frame_bool 2nd False
+---------------> 0
+0 109 None
+frame_bool first False
+FrameNo: 110
+frame_bool 2nd False
+---------------> 0
+0 110 None
+frame_bool first False
+FrameNo: 111
+frame_bool 2nd False
+---------------> 0
+0 111 None
+frame_bool first False
+FrameNo: 112
+frame_bool 2nd False
+---------------> 0
+0 112 None
+frame_bool first False
+FrameNo: 113
+frame_bool 2nd False
+---------------> 0
+0 113 None
+frame_bool first False
+FrameNo: 114
+frame_bool 2nd False
+---------------> 0
+0 114 None
+frame_bool first False
+FrameNo: 115
+frame_bool 2nd False
+---------------> 0
+0 115 None
+frame_bool first False
+FrameNo: 116
+frame_bool 2nd False
+---------------> 0
+0 116 None
+frame_bool first False
+FrameNo: 117
+frame_bool 2nd False
+---------------> 0
+0 117 None
+frame_bool first False
+FrameNo: 118
+frame_bool 2nd False
+---------------> 0
+0 118 None
+frame_bool first False
+FrameNo: 119
+frame_bool 2nd False
+---------------> 0
+0 119 None
+frame_bool first False
+FrameNo: 120
+frame_bool 2nd False
+---------------> 0
+0 120 None
+frame_bool first False
+FrameNo: 121
+frame_bool 2nd False
+---------------> 0
+0 121 None
+frame_bool first False
+FrameNo: 122
+frame_bool 2nd False
+---------------> 0
+0 122 None
+frame_bool first False
+FrameNo: 123
+frame_bool 2nd False
+---------------> 0
+0 123 None
+frame_bool first False
+FrameNo: 124
+frame_bool 2nd False
+---------------> 0
+0 124 None
+frame_bool first False
+FrameNo: 125
+frame_bool 2nd False
+---------------> 0
+0 125 None
+frame_bool first False
+FrameNo: 126
+frame_bool 2nd False
+---------------> 0
+0 126 None
+frame_bool first False
+FrameNo: 127
+frame_bool 2nd False
+---------------> 0
+0 127 None
+frame_bool first False
+FrameNo: 128
+frame_bool 2nd False
+---------------> 0
+0 128 None
+frame_bool first False
+FrameNo: 129
+frame_bool 2nd False
+---------------> 0
+0 129 None
+frame_bool first False
+FrameNo: 130
+frame_bool 2nd False
+---------------> 0
+0 130 None
+frame_bool first False
+FrameNo: 131
+frame_bool 2nd False
+---------------> 0
+0 131 None
+frame_bool first False
+FrameNo: 132
+frame_bool 2nd False
+---------------> 0
+0 132 None
+frame_bool first False
+motion_end 132
+FrameNo: 133
+frame_bool 2nd False
+---------------> 0
+0 133 None
+frame_bool first False
+FrameNo: 134
+frame_bool 2nd False
+---------------> 0
+0 134 None
+frame_bool first False
+FrameNo: 135
+frame_bool 2nd False
+---------------> 0
+0 135 None
+frame_bool first False
+motion_end 135
+FrameNo: 136
+frame_bool 2nd False
+---------------> 0
+0 136 None
+frame_bool first False
+motion_end 136
+FrameNo: 137
+frame_bool 2nd False
+---------------> 0
+0 137 None
+frame_bool first False
+FrameNo: 138
+frame_bool 2nd False
+---------------> 0
+0 138 None
+frame_bool first False
+motion_end 138
+FrameNo: 139
+frame_bool 2nd False
+---------------> 0
+0 139 None
+frame_bool first False
+FrameNo: 140
+frame_bool 2nd False
+---------------> 0
+0 140 None
+frame_bool first False
+FrameNo: 141
+frame_bool 2nd False
+---------------> 0
+0 141 None
+frame_bool first False
+motion_end 141
+FrameNo: 142
+frame_bool 2nd False
+---------------> 0
+0 142 None
+frame_bool first False
+motion_end 142
+FrameNo: 143
+frame_bool 2nd False
+---------------> 0
+0 143 None
+frame_bool first False
+FrameNo: 144
+frame_bool 2nd False
+---------------> 0
+0 144 None
+frame_bool first False
+motion_end 144
+FrameNo: 145
+frame_bool 2nd False
+---------------> 0
+0 145 None
+frame_bool first False
+FrameNo: 146
+frame_bool 2nd False
+---------------> 0
+0 146 None
+frame_bool first False
+FrameNo: 147
+frame_bool 2nd False
+---------------> 0
+0 147 None
+frame_bool first False
+motion_end 147
+FrameNo: 148
+frame_bool 2nd False
+---------------> 0
+0 148 None
+frame_bool first False
+motion_end 148
+FrameNo: 149
+frame_bool 2nd False
+---------------> 0
+0 149 None
+frame_bool first False
+FrameNo: 150
+frame_bool 2nd False
+---------------> 0
+0 150 None
+frame_bool first False
+motion_end 150
+FrameNo: 151
+frame_bool 2nd False
+---------------> 0
+0 151 None
+frame_bool first False
+FrameNo: 152
+frame_bool 2nd False
+---------------> 0
+0 152 None
+frame_bool first False
+FrameNo: 153
+frame_bool 2nd False
+---------------> 0
+0 153 None
+frame_bool first False
+motion_end 153
+FrameNo: 154
+frame_bool 2nd False
+---------------> 0
+0 154 None
+frame_bool first False
+motion_end 154
+FrameNo: 155
+frame_bool 2nd False
+---------------> 0
+0 155 None
+frame_bool first False
+FrameNo: 156
+frame_bool 2nd False
+---------------> 0
+0 156 None
+frame_bool first False
+motion_end 156
+FrameNo: 157
+frame_bool 2nd False
+---------------> 0
+0 157 None
+frame_bool first False
+FrameNo: 158
+frame_bool 2nd False
+---------------> 0
+0 158 None
+frame_bool first False
+FrameNo: 159
+frame_bool 2nd False
+---------------> 0
+0 159 None
+frame_bool first False
+FrameNo: 160
+frame_bool 2nd False
+---------------> 0
+0 160 None
+frame_bool first False
+FrameNo: 161
+frame_bool 2nd False
+---------------> 0
+0 161 None
+frame_bool first False
+FrameNo: 162
+frame_bool 2nd False
+---------------> 0
+0 162 None
+frame_bool first False
+FrameNo: 163
+frame_bool 2nd False
+---------------> 0
+0 163 None
+frame_bool first False
+FrameNo: 164
+frame_bool 2nd False
+---------------> 0
+0 164 None
+frame_bool first False
+FrameNo: 165
+frame_bool 2nd False
+---------------> 0
+0 165 None
+frame_bool first False
+FrameNo: 166
+frame_bool 2nd False
+---------------> 0
+0 166 None
+frame_bool first False
+FrameNo: 167
+frame_bool 2nd False
+---------------> 0
+0 167 None
+frame_bool first False
+FrameNo: 168
+frame_bool 2nd False
+---------------> 0
+0 168 None
+frame_bool first False
+FrameNo: 169
+frame_bool 2nd False
+---------------> 0
+0 169 None
+frame_bool first False
+FrameNo: 170
+frame_bool 2nd False
+---------------> 0
+0 170 None
+frame_bool first False
+FrameNo: 171
+frame_bool 2nd False
+---------------> 0
+0 171 None
+frame_bool first False
+FrameNo: 172
+frame_bool 2nd False
+---------------> 0
+0 172 None
+frame_bool first False
+FrameNo: 173
+frame_bool 2nd False
+---------------> 0
+0 173 None
+frame_bool first False
+FrameNo: 174
+frame_bool 2nd False
+---------------> 0
+0 174 None
+frame_bool first False
+FrameNo: 175
+frame_bool 2nd False
+---------------> 0
+0 175 None
+frame_bool first False
+FrameNo: 176
+frame_bool 2nd False
+---------------> 0
+0 176 None
+frame_bool first False
+FrameNo: 177
+frame_bool 2nd False
+---------------> 0
+0 177 None
+frame_bool first False
+FrameNo: 178
+frame_bool 2nd False
+---------------> 0
+0 178 None
+frame_bool first False
+FrameNo: 179
+frame_bool 2nd False
+---------------> 0
+0 179 None
+frame_bool first False
+FrameNo: 180
+frame_bool 2nd False
+---------------> 0
+0 180 None
+frame_bool first False
+FrameNo: 181
+frame_bool 2nd False
+---------------> 0
+0 181 None
+frame_bool first False
+FrameNo: 182
+frame_bool 2nd False
+---------------> 0
+0 182 None
+frame_bool first False
+FrameNo: 183
+frame_bool 2nd False
+---------------> 0
+0 183 None
+frame_bool first False
+FrameNo: 184
+frame_bool 2nd False
+---------------> 0
+0 184 None
+frame_bool first False
+FrameNo: 185
+frame_bool 2nd False
+---------------> 0
+0 185 None
+frame_bool first False
+FrameNo: 186
+frame_bool 2nd False
+---------------> 0
+0 186 None
+frame_bool first False
+motion_end 186
+FrameNo: 187
+frame_bool 2nd False
+---------------> 0
+0 187 None
+frame_bool first False
+FrameNo: 188
+frame_bool 2nd False
+---------------> 0
+0 188 None
+frame_bool first False
+FrameNo: 189
+frame_bool 2nd False
+---------------> 0
+0 189 None
+frame_bool first False
+motion_end 189
+FrameNo: 190
+frame_bool 2nd False
+---------------> 0
+0 190 None
+frame_bool first False
+motion_end 190
+FrameNo: 191
+frame_bool 2nd False
+---------------> 0
+0 191 None
+frame_bool first False
+FrameNo: 192
+frame_bool 2nd False
+---------------> 0
+0 192 None
+frame_bool first False
+motion_end 192
+FrameNo: 193
+frame_bool 2nd False
+---------------> 0
+0 193 None
+frame_bool first False
+FrameNo: 194
+frame_bool 2nd False
+---------------> 0
+0 194 None
+frame_bool first False
+FrameNo: 195
+frame_bool 2nd False
+---------------> 0
+0 195 None
+frame_bool first False
+motion_end 195
+FrameNo: 196
+frame_bool 2nd False
+---------------> 0
+0 196 None
+frame_bool first False
+motion_end 196
+FrameNo: 197
+frame_bool 2nd False
+---------------> 0
+0 197 None
+frame_bool first False
+FrameNo: 198
+frame_bool 2nd False
+---------------> 0
+0 198 None
+frame_bool first False
+motion_end 198
+FrameNo: 199
+frame_bool 2nd False
+---------------> 0
+0 199 None
+frame_bool first False
+FrameNo: 200
+frame_bool 2nd False
+---------------> 0
+0 200 None
+frame_bool first False
+FrameNo: 201
+frame_bool 2nd False
+---------------> 0
+0 201 None
+frame_bool first False
+FrameNo: 202
+frame_bool 2nd False
+---------------> 0
+0 202 None
+frame_bool first False
+FrameNo: 203
+frame_bool 2nd False
+---------------> 0
+0 203 None
+frame_bool first False
+FrameNo: 204
+frame_bool 2nd False
+---------------> 0
+0 204 None
+frame_bool first False
+motion_end 204
+FrameNo: 205
+frame_bool 2nd False
+---------------> 0
+0 205 None
+frame_bool first False
+FrameNo: 206
+frame_bool 2nd False
+---------------> 0
+0 206 None
+frame_bool first False
+FrameNo: 207
+frame_bool 2nd False
+---------------> 0
+0 207 None
+frame_bool first False
+motion_end 207
+FrameNo: 208
+frame_bool 2nd False
+---------------> 0
+0 208 None
+frame_bool first False
+motion_end 208
+FrameNo: 209
+frame_bool 2nd False
+---------------> 0
+0 209 None
+frame_bool first False
+FrameNo: 210
+frame_bool 2nd False
+---------------> 0
+0 210 None
+frame_bool first False
+motion_end 210
+FrameNo: 211
+frame_bool 2nd False
+---------------> 0
+0 211 None
+frame_bool first False
+FrameNo: 212
+frame_bool 2nd False
+---------------> 0
+0 212 None
+frame_bool first False
+FrameNo: 213
+frame_bool 2nd False
+---------------> 0
+0 213 None
+frame_bool first False
+motion_end 213
+FrameNo: 214
+frame_bool 2nd False
+---------------> 0
+0 214 None
+frame_bool first False
+motion_end 214
+FrameNo: 215
+frame_bool 2nd False
+---------------> 0
+0 215 None
+frame_bool first False
+FrameNo: 216
+frame_bool 2nd False
+---------------> 0
+0 216 None
+frame_bool first False
+motion_end 216
+FrameNo: 217
+frame_bool 2nd False
+---------------> 0
+0 217 None
+frame_bool first False
+FrameNo: 218
+frame_bool 2nd False
+---------------> 0
+0 218 None
+frame_bool first False
+FrameNo: 219
+frame_bool 2nd False
+---------------> 0
+0 219 None
+frame_bool first False
+motion_end 219
+FrameNo: 220
+frame_bool 2nd False
+---------------> 0
+0 220 None
+frame_bool first False
+motion_end 220
+FrameNo: 221
+frame_bool 2nd False
+---------------> 0
+0 221 None
+frame_bool first False
+FrameNo: 222
+frame_bool 2nd False
+---------------> 0
+0 222 None
+frame_bool first False
+motion_end 222
+FrameNo: 223
+frame_bool 2nd False
+---------------> 0
+0 223 None
+frame_bool first False
+FrameNo: 224
+frame_bool 2nd False
+---------------> 0
+0 224 None
+frame_bool first False
+FrameNo: 225
+frame_bool 2nd False
+---------------> 0
+0 225 None
+frame_bool first False
+FrameNo: 226
+frame_bool 2nd False
+---------------> 0
+0 226 None
+frame_bool first False
+FrameNo: 227
+frame_bool 2nd False
+---------------> 0
+0 227 None
+frame_bool first False
+FrameNo: 228
+frame_bool 2nd False
+---------------> 0
+0 228 None
+frame_bool first False
+motion_end 228
+Distance------------------> 11
+FrameNo: 229
+frame_bool 2nd True
+---------------> 1
+1 0 None
+frame_bool first False
+FrameNo: 230
+frame_bool 2nd False
+---------------> 2
+1 1 None
+frame_bool first False
+FrameNo: 231
+frame_bool 2nd False
+---------------> 3
+1 2 None
+frame_bool first False
+motion_end 2
+Distance------------------> 11
+FrameNo: 232
+frame_bool 2nd False
+---------------> 4
+1 3 None
+frame_bool first False
+motion_end 3
+Distance------------------> 11
+FrameNo: 233
+frame_bool 2nd False
+---------------> 5
+1 4 None
+frame_bool first False
+FrameNo: 234
+frame_bool 2nd False
+---------------> 6
+1 5 None
+frame_bool first False
+motion_end 5
+Distance------------------> 11
+FrameNo: 235
+frame_bool 2nd False
+---------------> 7
+1 6 None
+frame_bool first False
+FrameNo: 236
+frame_bool 2nd False
+---------------> 8
+1 7 None
+frame_bool first False
+FrameNo: 237
+frame_bool 2nd False
+---------------> 9
+1 8 None
+frame_bool first False
+motion_end 8
+Distance------------------> 11
+FrameNo: 238
+frame_bool 2nd False
+---------------> 10
+1 9 None
+frame_bool first False
+motion_end 9
+Distance------------------> 11
+FrameNo: 239
+frame_bool 2nd False
+---------------> 11
+1 10 None
+frame_bool first False
+FrameNo: 240
+frame_bool 2nd False
+---------------> 12
+1 11 None
+frame_bool first False
+motion_end 11
+Distance------------------> 11
+FrameNo: 241
+frame_bool 2nd False
+---------------> 13
+1 12 None
+frame_bool first False
+FrameNo: 242
+frame_bool 2nd False
+---------------> 14
+1 13 None
+frame_bool first False
+FrameNo: 243
+frame_bool 2nd False
+---------------> 15
+1 14 None
+frame_bool first False
+motion_end 14
+Distance------------------> 11
+FrameNo: 244
+frame_bool 2nd False
+---------------> 16
+1 15 None
+frame_bool first False
+motion_end 15
+Distance------------------> 11
+FrameNo: 245
+frame_bool 2nd False
+---------------> 17
+1 16 None
+frame_bool first False
+FrameNo: 246
+frame_bool 2nd False
+---------------> 18
+1 17 None
+frame_bool first False
+motion_end 17
+Distance------------------> 11
+FrameNo: 247
+frame_bool 2nd False
+---------------> 19
+1 18 None
+frame_bool first False
+FrameNo: 248
+frame_bool 2nd False
+---------------> 20
+1 19 None
+frame_bool first False
+FrameNo: 249
+frame_bool 2nd False
+---------------> 0
+0 20 None
+frame_bool first False
+motion_end 20
+FrameNo: 250
+frame_bool 2nd False
+---------------> 0
+0 21 None
+frame_bool first False
+motion_end 21
+FrameNo: 251
+frame_bool 2nd False
+---------------> 0
+0 22 None
+frame_bool first False
+FrameNo: 252
+frame_bool 2nd False
+---------------> 0
+0 23 None
+frame_bool first False
+motion_end 23
+FrameNo: 253
+frame_bool 2nd False
+---------------> 0
+0 24 None
+frame_bool first False
+FrameNo: 254
+frame_bool 2nd False
+---------------> 0
+0 25 None
+frame_bool first False
+FrameNo: 255
+frame_bool 2nd False
+---------------> 0
+0 26 None
+frame_bool first False
+motion_end 26
+FrameNo: 256
+frame_bool 2nd False
+---------------> 0
+0 27 None
+frame_bool first False
+motion_end 27
+FrameNo: 257
+frame_bool 2nd False
+---------------> 0
+0 28 None
+frame_bool first False
+FrameNo: 258
+frame_bool 2nd False
+---------------> 0
+0 29 None
+frame_bool first False
+motion_end 29
+FrameNo: 259
+frame_bool 2nd False
+---------------> 0
+0 30 None
+frame_bool first False
+FrameNo: 260
+frame_bool 2nd False
+---------------> 0
+0 31 None
+frame_bool first False
+FrameNo: 261
+frame_bool 2nd False
+---------------> 0
+0 32 None
+frame_bool first False
+motion_end 32
+FrameNo: 262
+frame_bool 2nd False
+---------------> 0
+0 33 None
+frame_bool first False
+motion_end 33
+FrameNo: 263
+frame_bool 2nd False
+---------------> 0
+0 34 None
+frame_bool first False
+FrameNo: 264
+frame_bool 2nd False
+---------------> 0
+0 35 None
+frame_bool first False
+motion_end 35
+FrameNo: 265
+frame_bool 2nd False
+---------------> 0
+0 36 None
+frame_bool first False
+FrameNo: 266
+frame_bool 2nd False
+---------------> 0
+0 37 None
+frame_bool first False
+FrameNo: 267
+frame_bool 2nd False
+---------------> 0
+0 38 None
+frame_bool first False
+motion_end 38
+FrameNo: 268
+frame_bool 2nd False
+---------------> 0
+0 39 None
+frame_bool first False
+motion_end 39
+FrameNo: 269
+frame_bool 2nd False
+---------------> 0
+0 40 None
+frame_bool first False
+FrameNo: 270
+frame_bool 2nd False
+---------------> 0
+0 41 None
+frame_bool first False
+motion_end 41
+FrameNo: 271
+frame_bool 2nd False
+---------------> 0
+0 42 None
+frame_bool first False
+FrameNo: 272
+frame_bool 2nd False
+---------------> 0
+0 43 None
+frame_bool first False
+FrameNo: 273
+frame_bool 2nd False
+---------------> 0
+0 44 None
+frame_bool first False
+motion_end 44
+FrameNo: 274
+frame_bool 2nd False
+---------------> 0
+0 45 None
+frame_bool first False
+motion_end 45
+FrameNo: 275
+frame_bool 2nd False
+---------------> 0
+0 46 None
+frame_bool first False
+FrameNo: 276
+frame_bool 2nd False
+---------------> 0
+0 47 None
+frame_bool first False
+motion_end 47
+FrameNo: 277
+frame_bool 2nd False
+---------------> 0
+0 48 None
+frame_bool first False
+FrameNo: 278
+frame_bool 2nd False
+---------------> 0
+0 49 None
+frame_bool first False
+FrameNo: 279
+frame_bool 2nd False
+---------------> 0
+0 50 None
+frame_bool first False
+motion_end 50
+FrameNo: 280
+frame_bool 2nd False
+---------------> 0
+0 51 None
+frame_bool first False
+motion_end 51
+FrameNo: 281
+frame_bool 2nd False
+---------------> 0
+0 52 None
+frame_bool first False
+FrameNo: 282
+frame_bool 2nd False
+---------------> 0
+0 53 None
+frame_bool first False
+motion_end 53
+Distance------------------> 11
+FrameNo: 283
+frame_bool 2nd True
+---------------> 1
+1 0 None
+frame_bool first False
+FrameNo: 284
+frame_bool 2nd False
+---------------> 2
+1 1 None
+frame_bool first False
+FrameNo: 285
+frame_bool 2nd False
+---------------> 3
+1 2 None
+frame_bool first False
+motion_end 2
+Distance------------------> 11
+Distance------------------> 13
+FrameNo: 286
+frame_bool 2nd True
+---------------> 4
+2 0 None
+frame_bool first False
+motion_end 0
+Distance------------------> 11
+Distance------------------> 13
+FrameNo: 287
+frame_bool 2nd True
+---------------> 5
+3 0 None
+frame_bool first False
+FrameNo: 288
+frame_bool 2nd False
+---------------> 6
+3 1 None
+frame_bool first False
+motion_end 1
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+FrameNo: 289
+frame_bool 2nd True
+---------------> 7
+4 0 None
+frame_bool first False
+FrameNo: 290
+frame_bool 2nd False
+---------------> 8
+4 1 None
+frame_bool first False
+FrameNo: 291
+frame_bool 2nd False
+---------------> 9
+4 2 None
+frame_bool first False
+motion_end 2
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+FrameNo: 292
+frame_bool 2nd True
+---------------> 10
+5 0 None
+frame_bool first False
+motion_end 0
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+FrameNo: 293
+frame_bool 2nd True
+---------------> 11
+6 0 None
+frame_bool first False
+FrameNo: 294
+frame_bool 2nd False
+---------------> 12
+6 1 None
+frame_bool first False
+motion_end 1
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+FrameNo: 295
+frame_bool 2nd False
+---------------> 13
+6 2 None
+frame_bool first False
+FrameNo: 296
+frame_bool 2nd False
+---------------> 14
+6 3 None
+frame_bool first False
+FrameNo: 297
+frame_bool 2nd False
+---------------> 15
+6 4 None
+frame_bool first False
+motion_end 4
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+FrameNo: 298
+frame_bool 2nd True
+---------------> 16
+7 0 None
+frame_bool first False
+motion_end 0
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+FrameNo: 299
+frame_bool 2nd True
+---------------> 17
+8 0 None
+frame_bool first False
+FrameNo: 300
+frame_bool 2nd False
+---------------> 18
+8 1 None
+frame_bool first False
+motion_end 1
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+FrameNo: 301
+frame_bool 2nd False
+---------------> 19
+8 2 None
+frame_bool first False
+FrameNo: 302
+frame_bool 2nd False
+---------------> 20
+8 3 None
+frame_bool first False
+FrameNo: 303
+frame_bool 2nd False
+---------------> 21
+8 4 None
+frame_bool first False
+motion_end 4
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 304
+frame_bool 2nd True
+---------------> 22
+9 0 None
+frame_bool first False
+motion_end 0
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 305
+frame_bool 2nd True
+---------------> 23
+10 0 None
+frame_bool first False
+FrameNo: 306
+frame_bool 2nd False
+---------------> 24
+10 1 None
+frame_bool first False
+motion_end 1
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 307
+frame_bool 2nd False
+---------------> 25
+10 2 None
+frame_bool first False
+FrameNo: 308
+frame_bool 2nd False
+---------------> 26
+10 3 None
+frame_bool first False
+FrameNo: 309
+frame_bool 2nd False
+---------------> 27
+10 4 None
+frame_bool first False
+motion_end 4
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 310
+frame_bool 2nd False
+---------------> 28
+10 5 None
+frame_bool first False
+motion_end 5
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 311
+frame_bool 2nd False
+---------------> 29
+10 6 None
+frame_bool first False
+FrameNo: 312
+frame_bool 2nd False
+---------------> 30
+10 7 None
+frame_bool first False
+motion_end 7
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 313
+frame_bool 2nd False
+---------------> 31
+10 8 None
+frame_bool first False
+FrameNo: 314
+frame_bool 2nd False
+---------------> 32
+10 9 None
+frame_bool first False
+FrameNo: 315
+frame_bool 2nd False
+---------------> 33
+10 10 None
+frame_bool first False
+motion_end 10
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 316
+frame_bool 2nd False
+---------------> 34
+10 11 None
+frame_bool first False
+motion_end 11
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 317
+frame_bool 2nd False
+---------------> 35
+10 12 None
+frame_bool first False
+motion_end 12
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 318
+frame_bool 2nd False
+---------------> 36
+10 13 None
+frame_bool first False
+motion_end 13
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 319
+frame_bool 2nd False
+---------------> 37
+10 14 None
+frame_bool first False
+FrameNo: 320
+frame_bool 2nd False
+---------------> 38
+10 15 None
+frame_bool first False
+motion_end 15
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 321
+frame_bool 2nd False
+---------------> 39
+10 16 None
+frame_bool first False
+FrameNo: 322
+frame_bool 2nd False
+---------------> 40
+10 17 None
+frame_bool first False
+FrameNo: 323
+frame_bool 2nd False
+---------------> 41
+10 18 None
+frame_bool first False
+motion_end 18
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 324
+frame_bool 2nd False
+---------------> 42
+10 19 None
+frame_bool first False
+motion_end 19
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 325
+frame_bool 2nd False
+---------------> 0
+0 20 None
+frame_bool first False
+FrameNo: 326
+frame_bool 2nd False
+---------------> 0
+0 21 None
+frame_bool first False
+motion_end 21
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 327
+frame_bool 2nd False
+---------------> 0
+0 22 None
+frame_bool first False
+FrameNo: 328
+frame_bool 2nd False
+---------------> 0
+0 23 None
+frame_bool first False
+FrameNo: 329
+frame_bool 2nd False
+---------------> 0
+0 24 None
+frame_bool first False
+motion_end 24
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 330
+frame_bool 2nd False
+---------------> 0
+0 25 None
+frame_bool first False
+motion_end 25
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 331
+frame_bool 2nd False
+---------------> 0
+0 26 None
+frame_bool first False
+FrameNo: 332
+frame_bool 2nd False
+---------------> 0
+0 27 None
+frame_bool first False
+motion_end 27
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 333
+frame_bool 2nd False
+---------------> 0
+0 28 None
+frame_bool first False
+FrameNo: 334
+frame_bool 2nd False
+---------------> 0
+0 29 None
+frame_bool first False
+FrameNo: 335
+frame_bool 2nd False
+---------------> 0
+0 30 None
+frame_bool first False
+motion_end 30
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 336
+frame_bool 2nd False
+---------------> 0
+0 31 None
+frame_bool first False
+motion_end 31
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 337
+frame_bool 2nd False
+---------------> 0
+0 32 None
+frame_bool first False
+FrameNo: 338
+frame_bool 2nd False
+---------------> 0
+0 33 None
+frame_bool first False
+motion_end 33
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 339
+frame_bool 2nd False
+---------------> 0
+0 34 None
+frame_bool first False
+FrameNo: 340
+frame_bool 2nd False
+---------------> 0
+0 35 None
+frame_bool first False
+FrameNo: 341
+frame_bool 2nd False
+---------------> 0
+0 36 None
+frame_bool first False
+motion_end 36
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 342
+frame_bool 2nd False
+---------------> 0
+0 37 None
+frame_bool first False
+motion_end 37
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 343
+frame_bool 2nd False
+---------------> 0
+0 38 None
+frame_bool first False
+FrameNo: 344
+frame_bool 2nd False
+---------------> 0
+0 39 None
+frame_bool first False
+motion_end 39
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 345
+frame_bool 2nd False
+---------------> 0
+0 40 None
+frame_bool first False
+FrameNo: 346
+frame_bool 2nd False
+---------------> 0
+0 41 None
+frame_bool first False
+FrameNo: 347
+frame_bool 2nd False
+---------------> 0
+0 42 None
+frame_bool first False
+motion_end 42
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 348
+frame_bool 2nd False
+---------------> 0
+0 43 None
+frame_bool first False
+motion_end 43
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 349
+frame_bool 2nd False
+---------------> 0
+0 44 None
+frame_bool first False
+FrameNo: 350
+frame_bool 2nd False
+---------------> 0
+0 45 None
+frame_bool first False
+motion_end 45
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 351
+frame_bool 2nd False
+---------------> 0
+0 46 None
+frame_bool first False
+FrameNo: 352
+frame_bool 2nd False
+---------------> 0
+0 47 None
+frame_bool first False
+FrameNo: 353
+frame_bool 2nd False
+---------------> 0
+0 48 None
+frame_bool first False
+motion_end 48
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 354
+frame_bool 2nd False
+---------------> 0
+0 49 None
+frame_bool first False
+motion_end 49
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 355
+frame_bool 2nd False
+---------------> 0
+0 50 None
+frame_bool first False
+FrameNo: 356
+frame_bool 2nd False
+---------------> 0
+0 51 None
+frame_bool first False
+motion_end 51
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 357
+frame_bool 2nd False
+---------------> 0
+0 52 None
+frame_bool first False
+FrameNo: 358
+frame_bool 2nd False
+---------------> 0
+0 53 None
+frame_bool first False
+FrameNo: 359
+frame_bool 2nd False
+---------------> 0
+0 54 None
+frame_bool first False
+motion_end 54
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 360
+frame_bool 2nd False
+---------------> 0
+0 55 None
+frame_bool first False
+motion_end 55
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 361
+frame_bool 2nd False
+---------------> 0
+0 56 None
+frame_bool first False
+FrameNo: 362
+frame_bool 2nd False
+---------------> 0
+0 57 None
+frame_bool first False
+motion_end 57
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 363
+frame_bool 2nd False
+---------------> 0
+0 58 None
+frame_bool first False
+FrameNo: 364
+frame_bool 2nd False
+---------------> 0
+0 59 None
+frame_bool first False
+FrameNo: 365
+frame_bool 2nd False
+---------------> 0
+0 60 None
+frame_bool first False
+motion_end 60
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 366
+frame_bool 2nd False
+---------------> 0
+0 61 None
+frame_bool first False
+motion_end 61
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 367
+frame_bool 2nd False
+---------------> 0
+0 62 None
+frame_bool first False
+FrameNo: 368
+frame_bool 2nd False
+---------------> 0
+0 63 None
+frame_bool first False
+motion_end 63
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+FrameNo: 369
+frame_bool 2nd False
+---------------> 0
+0 64 None
+frame_bool first False
+FrameNo: 370
+frame_bool 2nd False
+---------------> 0
+0 65 None
+frame_bool first False
+FrameNo: 371
+frame_bool 2nd False
+---------------> 0
+0 66 None
+frame_bool first False
+motion_end 66
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+Distance------------------> 15
+FrameNo: 372
+frame_bool 2nd True
+---------------> 1
+1 0 None
+frame_bool first False
+motion_end 0
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+Distance------------------> 15
+FrameNo: 373
+frame_bool 2nd True
+---------------> 2
+2 0 None
+frame_bool first False
+FrameNo: 374
+frame_bool 2nd False
+---------------> 3
+2 1 None
+frame_bool first False
+motion_end 1
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+Distance------------------> 15
+FrameNo: 375
+frame_bool 2nd False
+---------------> 4
+2 2 None
+frame_bool first False
+FrameNo: 376
+frame_bool 2nd False
+---------------> 5
+2 3 None
+frame_bool first False
+FrameNo: 377
+frame_bool 2nd False
+---------------> 6
+2 4 None
+frame_bool first False
+motion_end 4
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+Distance------------------> 15
+Distance------------------> 21
+FrameNo: 378
+frame_bool 2nd True
+---------------> 7
+3 0 None
+frame_bool first False
+motion_end 0
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+Distance------------------> 15
+Distance------------------> 21
+FrameNo: 379
+frame_bool 2nd True
+---------------> 8
+4 0 None
+frame_bool first False
+FrameNo: 380
+frame_bool 2nd False
+---------------> 9
+4 1 None
+frame_bool first False
+motion_end 1
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+Distance------------------> 15
+Distance------------------> 21
+FrameNo: 381
+frame_bool 2nd True
+---------------> 10
+5 0 None
+frame_bool first False
+FrameNo: 382
+frame_bool 2nd False
+---------------> 11
+5 1 None
+frame_bool first False
+FrameNo: 383
+frame_bool 2nd False
+---------------> 12
+5 2 None
+frame_bool first False
+motion_end 2
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+Distance------------------> 15
+Distance------------------> 21
+FrameNo: 384
+frame_bool 2nd False
+---------------> 13
+5 3 None
+frame_bool first False
+motion_end 3
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+Distance------------------> 15
+Distance------------------> 21
+FrameNo: 385
+frame_bool 2nd False
+---------------> 14
+5 4 None
+frame_bool first False
+FrameNo: 386
+frame_bool 2nd False
+---------------> 15
+5 5 None
+frame_bool first False
+motion_end 5
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+Distance------------------> 15
+Distance------------------> 21
+FrameNo: 387
+frame_bool 2nd False
+---------------> 16
+5 6 None
+frame_bool first False
+FrameNo: 388
+frame_bool 2nd False
+---------------> 17
+5 7 None
+frame_bool first False
+FrameNo: 389
+frame_bool 2nd False
+---------------> 18
+5 8 None
+frame_bool first False
+motion_end 8
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+Distance------------------> 15
+Distance------------------> 21
+Distance------------------> 23
+FrameNo: 390
+frame_bool 2nd True
+---------------> 19
+6 0 None
+frame_bool first False
+motion_end 0
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+Distance------------------> 15
+Distance------------------> 21
+Distance------------------> 23
+FrameNo: 391
+frame_bool 2nd True
+---------------> 20
+7 0 None
+frame_bool first False
+FrameNo: 392
+frame_bool 2nd False
+---------------> 21
+7 1 None
+frame_bool first False
+motion_end 1
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+Distance------------------> 15
+Distance------------------> 21
+Distance------------------> 23
+Distance------------------> 19
+FrameNo: 393
+frame_bool 2nd True
+---------------> 22
+8 0 None
+frame_bool first False
+FrameNo: 394
+frame_bool 2nd False
+---------------> 23
+8 1 None
+frame_bool first False
+FrameNo: 395
+frame_bool 2nd False
+---------------> 24
+8 2 None
+frame_bool first False
+motion_end 2
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+Distance------------------> 15
+Distance------------------> 21
+Distance------------------> 23
+Distance------------------> 19
+FrameNo: 396
+frame_bool 2nd False
+---------------> 25
+8 3 None
+frame_bool first False
+motion_end 3
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+Distance------------------> 15
+Distance------------------> 21
+Distance------------------> 23
+Distance------------------> 19
+FrameNo: 397
+frame_bool 2nd False
+---------------> 26
+8 4 None
+frame_bool first False
+FrameNo: 398
+frame_bool 2nd False
+---------------> 27
+8 5 None
+frame_bool first False
+motion_end 5
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+Distance------------------> 15
+Distance------------------> 21
+Distance------------------> 23
+Distance------------------> 19
+FrameNo: 399
+frame_bool 2nd False
+---------------> 28
+8 6 None
+frame_bool first False
+FrameNo: 400
+frame_bool 2nd False
+---------------> 29
+8 7 None
+frame_bool first False
+FrameNo: 401
+frame_bool 2nd False
+---------------> 30
+8 8 None
+frame_bool first False
+motion_end 8
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+Distance------------------> 15
+Distance------------------> 21
+Distance------------------> 23
+Distance------------------> 19
+FrameNo: 402
+frame_bool 2nd False
+---------------> 31
+8 9 None
+frame_bool first False
+motion_end 9
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+Distance------------------> 15
+Distance------------------> 21
+Distance------------------> 23
+Distance------------------> 19
+FrameNo: 403
+frame_bool 2nd False
+---------------> 32
+8 10 None
+frame_bool first False
+FrameNo: 404
+frame_bool 2nd False
+---------------> 33
+8 11 None
+frame_bool first False
+motion_end 11
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+Distance------------------> 15
+Distance------------------> 21
+Distance------------------> 23
+Distance------------------> 19
+FrameNo: 405
+frame_bool 2nd False
+---------------> 34
+8 12 None
+frame_bool first False
+FrameNo: 406
+frame_bool 2nd False
+---------------> 35
+8 13 None
+frame_bool first False
+FrameNo: 407
+frame_bool 2nd False
+---------------> 36
+8 14 None
+frame_bool first False
+motion_end 14
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+Distance------------------> 15
+Distance------------------> 21
+Distance------------------> 23
+Distance------------------> 19
+FrameNo: 408
+frame_bool 2nd False
+---------------> 37
+8 15 None
+frame_bool first False
+motion_end 15
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+Distance------------------> 15
+Distance------------------> 21
+Distance------------------> 23
+Distance------------------> 19
+FrameNo: 409
+frame_bool 2nd False
+---------------> 38
+8 16 None
+frame_bool first False
+FrameNo: 410
+frame_bool 2nd False
+---------------> 39
+8 17 None
+frame_bool first False
+motion_end 17
+Distance------------------> 11
+Distance------------------> 13
+Distance------------------> 11
+Distance------------------> 24
+Distance------------------> 14
+Distance------------------> 11
+Distance------------------> 15
+Distance------------------> 21
+Distance------------------> 23
+Distance------------------> 19
+FrameNo: 411
+frame_bool 2nd False
+---------------> 40
+8 18 None
+frame_bool first False
+FrameNo: 412
+frame_bool 2nd False
+---------------> 41
+8 19 None
+frame_bool first False
+FrameNo: 413
+frame_bool 2nd False
+---------------> 0
+0 20 None
+frame_bool first False
+motion_end 20
+FrameNo: 414
+frame_bool 2nd False
+---------------> 0
+0 21 None
+frame_bool first False
+motion_end 21
+FrameNo: 415
+frame_bool 2nd False
+---------------> 0
+0 22 None
+frame_bool first False
+FrameNo: 416
+frame_bool 2nd False
+---------------> 0
+0 23 None
+frame_bool first False
+motion_end 23
+FrameNo: 417
+frame_bool 2nd False
+---------------> 0
+0 24 None
+frame_bool first False
+FrameNo: 418
+frame_bool 2nd False
+---------------> 0
+0 25 None
+frame_bool first False
+FrameNo: 419
+frame_bool 2nd False
+---------------> 0
+0 26 None
+frame_bool first False
+motion_end 26
+FrameNo: 420
+frame_bool 2nd False
+---------------> 0
+0 27 None
+frame_bool first False
+motion_end 27
+FrameNo: 421
+frame_bool 2nd False
+---------------> 0
+0 28 None
+frame_bool first False
+FrameNo: 422
+frame_bool 2nd False
+---------------> 0
+0 29 None
+frame_bool first False
+motion_end 29
+Distance------------------> 14
+FrameNo: 423
+frame_bool 2nd True
+---------------> 1
+1 0 None
+frame_bool first False
+FrameNo: 424
+frame_bool 2nd False
+---------------> 2
+1 1 None
+frame_bool first False
+FrameNo: 425
+frame_bool 2nd False
+---------------> 3
+1 2 None
+frame_bool first False
+motion_end 2
+Distance------------------> 14
+Distance------------------> 19
+FrameNo: 426
+frame_bool 2nd True
+---------------> 4
+2 0 None
+frame_bool first False
+motion_end 0
+Distance------------------> 14
+Distance------------------> 19
+FrameNo: 427
+frame_bool 2nd True
+---------------> 5
+3 0 None
+frame_bool first False
+FrameNo: 428
+frame_bool 2nd False
+---------------> 6
+3 1 None
+frame_bool first False
+motion_end 1
+Distance------------------> 14
+Distance------------------> 19
+FrameNo: 429
+frame_bool 2nd False
+---------------> 7
+3 2 None
+frame_bool first False
+FrameNo: 430
+frame_bool 2nd False
+---------------> 8
+3 3 None
+frame_bool first False
+FrameNo: 431
+frame_bool 2nd False
+---------------> 9
+3 4 None
+frame_bool first False
+motion_end 4
+Distance------------------> 14
+Distance------------------> 19
+FrameNo: 432
+frame_bool 2nd False
+---------------> 10
+3 5 None
+frame_bool first False
+motion_end 5
+Distance------------------> 14
+Distance------------------> 19
+FrameNo: 433
+frame_bool 2nd False
+---------------> 11
+3 6 None
+frame_bool first False
+FrameNo: 434
+frame_bool 2nd False
+---------------> 12
+3 7 None
+frame_bool first False
+motion_end 7
+Distance------------------> 14
+Distance------------------> 19
+FrameNo: 435
+frame_bool 2nd False
+---------------> 13
+3 8 None
+frame_bool first False
+FrameNo: 436
+frame_bool 2nd False
+---------------> 14
+3 9 None
+frame_bool first False
+FrameNo: 437
+frame_bool 2nd False
+---------------> 15
+3 10 None
+frame_bool first False
+motion_end 10
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+FrameNo: 438
+frame_bool 2nd True
+---------------> 16
+4 0 None
+frame_bool first False
+motion_end 0
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+FrameNo: 439
+frame_bool 2nd True
+---------------> 17
+5 0 None
+frame_bool first False
+FrameNo: 440
+frame_bool 2nd False
+---------------> 18
+5 1 None
+frame_bool first False
+motion_end 1
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+FrameNo: 441
+frame_bool 2nd False
+---------------> 19
+5 2 None
+frame_bool first False
+FrameNo: 442
+frame_bool 2nd False
+---------------> 20
+5 3 None
+frame_bool first False
+FrameNo: 443
+frame_bool 2nd False
+---------------> 21
+5 4 None
+frame_bool first False
+motion_end 4
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+FrameNo: 444
+frame_bool 2nd False
+---------------> 22
+5 5 None
+frame_bool first False
+motion_end 5
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+FrameNo: 445
+frame_bool 2nd False
+---------------> 23
+5 6 None
+frame_bool first False
+FrameNo: 446
+frame_bool 2nd False
+---------------> 24
+5 7 None
+frame_bool first False
+motion_end 7
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+FrameNo: 447
+frame_bool 2nd True
+---------------> 25
+6 0 None
+frame_bool first False
+FrameNo: 448
+frame_bool 2nd False
+---------------> 26
+6 1 None
+frame_bool first False
+FrameNo: 449
+frame_bool 2nd False
+---------------> 27
+6 2 None
+frame_bool first False
+motion_end 2
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+FrameNo: 450
+frame_bool 2nd True
+---------------> 28
+7 0 None
+frame_bool first False
+motion_end 0
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+FrameNo: 451
+frame_bool 2nd True
+---------------> 29
+8 0 None
+frame_bool first False
+FrameNo: 452
+frame_bool 2nd False
+---------------> 30
+8 1 None
+frame_bool first False
+motion_end 1
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+FrameNo: 453
+frame_bool 2nd False
+---------------> 31
+8 2 None
+frame_bool first False
+FrameNo: 454
+frame_bool 2nd False
+---------------> 32
+8 3 None
+frame_bool first False
+FrameNo: 455
+frame_bool 2nd False
+---------------> 33
+8 4 None
+frame_bool first False
+motion_end 4
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+FrameNo: 456
+frame_bool 2nd False
+---------------> 34
+8 5 None
+frame_bool first False
+motion_end 5
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+FrameNo: 457
+frame_bool 2nd False
+---------------> 35
+8 6 None
+frame_bool first False
+FrameNo: 458
+frame_bool 2nd False
+---------------> 36
+8 7 None
+frame_bool first False
+motion_end 7
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+FrameNo: 459
+frame_bool 2nd False
+---------------> 37
+8 8 None
+frame_bool first False
+FrameNo: 460
+frame_bool 2nd False
+---------------> 38
+8 9 None
+frame_bool first False
+FrameNo: 461
+frame_bool 2nd False
+---------------> 39
+8 10 None
+frame_bool first False
+motion_end 10
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+Distance------------------> 24
+FrameNo: 462
+frame_bool 2nd True
+---------------> 40
+9 0 None
+frame_bool first False
+motion_end 0
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+Distance------------------> 24
+FrameNo: 463
+frame_bool 2nd True
+---------------> 41
+10 0 None
+frame_bool first False
+FrameNo: 464
+frame_bool 2nd False
+---------------> 42
+10 1 None
+frame_bool first False
+motion_end 1
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 24
+FrameNo: 465
+frame_bool 2nd True
+---------------> 43
+11 0 None
+frame_bool first False
+FrameNo: 466
+frame_bool 2nd False
+---------------> 44
+11 1 None
+frame_bool first False
+FrameNo: 467
+frame_bool 2nd False
+---------------> 45
+11 2 None
+frame_bool first False
+motion_end 2
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 20
+FrameNo: 468
+frame_bool 2nd True
+---------------> 46
+12 0 None
+frame_bool first False
+motion_end 0
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 20
+FrameNo: 469
+frame_bool 2nd True
+---------------> 47
+13 0 None
+frame_bool first False
+FrameNo: 470
+frame_bool 2nd False
+---------------> 48
+13 1 None
+frame_bool first False
+motion_end 1
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 20
+Distance------------------> 21
+FrameNo: 471
+frame_bool 2nd True
+---------------> 49
+14 0 None
+frame_bool first False
+FrameNo: 472
+frame_bool 2nd False
+---------------> 50
+14 1 None
+frame_bool first False
+FrameNo: 473
+frame_bool 2nd False
+---------------> 51
+14 2 None
+frame_bool first False
+motion_end 2
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 20
+Distance------------------> 21
+Distance------------------> 24
+FrameNo: 474
+frame_bool 2nd True
+---------------> 52
+15 0 None
+frame_bool first False
+motion_end 0
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 20
+Distance------------------> 21
+Distance------------------> 24
+FrameNo: 475
+frame_bool 2nd True
+---------------> 53
+16 0 None
+frame_bool first False
+FrameNo: 476
+frame_bool 2nd False
+---------------> 54
+16 1 None
+frame_bool first False
+motion_end 1
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 20
+Distance------------------> 21
+Distance------------------> 24
+FrameNo: 477
+frame_bool 2nd False
+---------------> 55
+16 2 None
+frame_bool first False
+FrameNo: 478
+frame_bool 2nd False
+---------------> 56
+16 3 None
+frame_bool first False
+FrameNo: 479
+frame_bool 2nd False
+---------------> 57
+16 4 None
+frame_bool first False
+motion_end 4
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 20
+Distance------------------> 21
+Distance------------------> 24
+FrameNo: 480
+frame_bool 2nd False
+---------------> 58
+16 5 None
+frame_bool first False
+motion_end 5
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 20
+Distance------------------> 21
+Distance------------------> 24
+FrameNo: 481
+frame_bool 2nd False
+---------------> 59
+16 6 None
+frame_bool first False
+FrameNo: 482
+frame_bool 2nd False
+---------------> 60
+16 7 None
+frame_bool first False
+motion_end 7
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 20
+Distance------------------> 21
+Distance------------------> 24
+FrameNo: 483
+frame_bool 2nd False
+---------------> 61
+16 8 None
+frame_bool first False
+FrameNo: 484
+frame_bool 2nd False
+---------------> 62
+16 9 None
+frame_bool first False
+FrameNo: 485
+frame_bool 2nd False
+---------------> 63
+16 10 None
+frame_bool first False
+motion_end 10
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 20
+Distance------------------> 21
+Distance------------------> 24
+FrameNo: 486
+frame_bool 2nd False
+---------------> 64
+16 11 None
+frame_bool first False
+motion_end 11
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 20
+Distance------------------> 21
+Distance------------------> 24
+FrameNo: 487
+frame_bool 2nd False
+---------------> 65
+16 12 None
+frame_bool first False
+FrameNo: 488
+frame_bool 2nd False
+---------------> 66
+16 13 None
+frame_bool first False
+motion_end 13
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 20
+Distance------------------> 21
+Distance------------------> 24
+FrameNo: 489
+frame_bool 2nd False
+---------------> 67
+16 14 None
+frame_bool first False
+FrameNo: 490
+frame_bool 2nd False
+---------------> 68
+16 15 None
+frame_bool first False
+FrameNo: 491
+frame_bool 2nd False
+---------------> 69
+16 16 None
+frame_bool first False
+motion_end 16
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 20
+Distance------------------> 21
+Distance------------------> 24
+FrameNo: 492
+frame_bool 2nd False
+---------------> 70
+16 17 None
+frame_bool first False
+motion_end 17
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 20
+Distance------------------> 21
+Distance------------------> 24
+FrameNo: 493
+frame_bool 2nd False
+---------------> 71
+16 18 None
+frame_bool first False
+FrameNo: 494
+frame_bool 2nd False
+---------------> 72
+16 19 None
+frame_bool first False
+motion_end 19
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 20
+Distance------------------> 21
+Distance------------------> 24
+FrameNo: 495
+frame_bool 2nd False
+---------------> 0
+0 20 None
+frame_bool first False
+FrameNo: 496
+frame_bool 2nd False
+---------------> 0
+0 21 None
+frame_bool first False
+FrameNo: 497
+frame_bool 2nd False
+---------------> 0
+0 22 None
+frame_bool first False
+motion_end 22
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 20
+Distance------------------> 21
+Distance------------------> 24
+FrameNo: 498
+frame_bool 2nd False
+---------------> 0
+0 23 None
+frame_bool first False
+motion_end 23
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 20
+Distance------------------> 21
+Distance------------------> 24
+FrameNo: 499
+frame_bool 2nd False
+---------------> 0
+0 24 None
+frame_bool first False
+FrameNo: 500
+frame_bool 2nd False
+---------------> 0
+0 25 None
+frame_bool first False
+motion_end 25
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 20
+Distance------------------> 21
+Distance------------------> 24
+FrameNo: 501
+frame_bool 2nd False
+---------------> 0
+0 26 None
+frame_bool first False
+FrameNo: 502
+frame_bool 2nd False
+---------------> 0
+0 27 None
+frame_bool first False
+FrameNo: 503
+frame_bool 2nd False
+---------------> 0
+0 28 None
+frame_bool first False
+FrameNo: 504
+frame_bool 2nd False
+---------------> 0
+0 29 None
+frame_bool first False
+FrameNo: 505
+frame_bool 2nd False
+---------------> 0
+0 30 None
+frame_bool first False
+FrameNo: 506
+frame_bool 2nd False
+---------------> 0
+0 31 None
+frame_bool first False
+FrameNo: 507
+frame_bool 2nd False
+---------------> 0
+0 32 None
+frame_bool first False
+FrameNo: 508
+frame_bool 2nd False
+---------------> 0
+0 33 None
+frame_bool first False
+FrameNo: 509
+frame_bool 2nd False
+---------------> 0
+0 34 None
+frame_bool first False
+FrameNo: 510
+frame_bool 2nd False
+---------------> 0
+0 35 None
+frame_bool first False
+FrameNo: 511
+frame_bool 2nd False
+---------------> 0
+0 36 None
+frame_bool first False
+FrameNo: 512
+frame_bool 2nd False
+---------------> 0
+0 37 None
+frame_bool first False
+FrameNo: 513
+frame_bool 2nd False
+---------------> 0
+0 38 None
+frame_bool first False
+FrameNo: 514
+frame_bool 2nd False
+---------------> 0
+0 39 None
+frame_bool first False
+FrameNo: 515
+frame_bool 2nd False
+---------------> 0
+0 40 None
+frame_bool first False
+motion_end 40
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 20
+Distance------------------> 21
+Distance------------------> 24
+FrameNo: 516
+frame_bool 2nd False
+---------------> 0
+0 41 None
+frame_bool first False
+motion_end 41
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 20
+Distance------------------> 21
+Distance------------------> 24
+FrameNo: 517
+frame_bool 2nd False
+---------------> 0
+0 42 None
+frame_bool first False
+FrameNo: 518
+frame_bool 2nd False
+---------------> 0
+0 43 None
+frame_bool first False
+FrameNo: 519
+frame_bool 2nd False
+---------------> 0
+0 44 None
+frame_bool first False
+FrameNo: 520
+frame_bool 2nd False
+---------------> 0
+0 45 None
+frame_bool first False
+FrameNo: 521
+frame_bool 2nd False
+---------------> 0
+0 46 None
+frame_bool first False
+FrameNo: 522
+frame_bool 2nd False
+---------------> 0
+0 47 None
+frame_bool first False
+FrameNo: 523
+frame_bool 2nd False
+---------------> 0
+0 48 None
+frame_bool first False
+FrameNo: 524
+frame_bool 2nd False
+---------------> 0
+0 49 None
+frame_bool first False
+FrameNo: 525
+frame_bool 2nd False
+---------------> 0
+0 50 None
+frame_bool first False
+FrameNo: 526
+frame_bool 2nd False
+---------------> 0
+0 51 None
+frame_bool first False
+FrameNo: 527
+frame_bool 2nd False
+---------------> 0
+0 52 None
+frame_bool first False
+FrameNo: 528
+frame_bool 2nd False
+---------------> 0
+0 53 None
+frame_bool first False
+FrameNo: 529
+frame_bool 2nd False
+---------------> 0
+0 54 None
+frame_bool first False
+FrameNo: 530
+frame_bool 2nd False
+---------------> 0
+0 55 None
+frame_bool first False
+FrameNo: 531
+frame_bool 2nd False
+---------------> 0
+0 56 None
+frame_bool first False
+FrameNo: 532
+frame_bool 2nd False
+---------------> 0
+0 57 None
+frame_bool first False
+FrameNo: 533
+frame_bool 2nd False
+---------------> 0
+0 58 None
+frame_bool first False
+FrameNo: 534
+frame_bool 2nd False
+---------------> 0
+0 59 None
+frame_bool first False
+FrameNo: 535
+frame_bool 2nd False
+---------------> 0
+0 60 None
+frame_bool first False
+FrameNo: 536
+frame_bool 2nd False
+---------------> 0
+0 61 None
+frame_bool first False
+FrameNo: 537
+frame_bool 2nd False
+---------------> 0
+0 62 None
+frame_bool first False
+FrameNo: 538
+frame_bool 2nd False
+---------------> 0
+0 63 None
+frame_bool first False
+FrameNo: 539
+frame_bool 2nd False
+---------------> 0
+0 64 None
+frame_bool first False
+FrameNo: 540
+frame_bool 2nd False
+---------------> 0
+0 65 None
+frame_bool first False
+FrameNo: 541
+frame_bool 2nd False
+---------------> 0
+0 66 None
+frame_bool first False
+FrameNo: 542
+frame_bool 2nd False
+---------------> 0
+0 67 None
+frame_bool first False
+FrameNo: 543
+frame_bool 2nd False
+---------------> 0
+0 68 None
+frame_bool first False
+FrameNo: 544
+frame_bool 2nd False
+---------------> 0
+0 69 None
+frame_bool first False
+FrameNo: 545
+frame_bool 2nd False
+---------------> 0
+0 70 None
+frame_bool first False
+FrameNo: 546
+frame_bool 2nd False
+---------------> 0
+0 71 None
+frame_bool first False
+FrameNo: 547
+frame_bool 2nd False
+---------------> 0
+0 72 None
+frame_bool first False
+FrameNo: 548
+frame_bool 2nd False
+---------------> 0
+0 73 None
+frame_bool first False
+FrameNo: 549
+frame_bool 2nd False
+---------------> 0
+0 74 None
+frame_bool first False
+FrameNo: 550
+frame_bool 2nd False
+---------------> 0
+0 75 None
+frame_bool first False
+FrameNo: 551
+frame_bool 2nd False
+---------------> 0
+0 76 None
+frame_bool first False
+FrameNo: 552
+frame_bool 2nd False
+---------------> 0
+0 77 None
+frame_bool first False
+FrameNo: 553
+frame_bool 2nd False
+---------------> 0
+0 78 None
+frame_bool first False
+FrameNo: 554
+frame_bool 2nd False
+---------------> 0
+0 79 None
+frame_bool first False
+FrameNo: 555
+frame_bool 2nd False
+---------------> 0
+0 80 None
+frame_bool first False
+FrameNo: 556
+frame_bool 2nd False
+---------------> 0
+0 81 None
+frame_bool first False
+FrameNo: 557
+frame_bool 2nd False
+---------------> 0
+0 82 None
+frame_bool first False
+FrameNo: 558
+frame_bool 2nd False
+---------------> 0
+0 83 None
+frame_bool first False
+FrameNo: 559
+frame_bool 2nd False
+---------------> 0
+0 84 None
+frame_bool first False
+FrameNo: 560
+frame_bool 2nd False
+---------------> 0
+0 85 None
+frame_bool first False
+FrameNo: 561
+frame_bool 2nd False
+---------------> 0
+0 86 None
+frame_bool first False
+FrameNo: 562
+frame_bool 2nd False
+---------------> 0
+0 87 None
+frame_bool first False
+FrameNo: 563
+frame_bool 2nd False
+---------------> 0
+0 88 None
+frame_bool first False
+FrameNo: 564
+frame_bool 2nd False
+---------------> 0
+0 89 None
+frame_bool first False
+FrameNo: 565
+frame_bool 2nd False
+---------------> 0
+0 90 None
+frame_bool first False
+FrameNo: 566
+frame_bool 2nd False
+---------------> 0
+0 91 None
+frame_bool first False
+FrameNo: 567
+frame_bool 2nd False
+---------------> 0
+0 92 None
+frame_bool first False
+FrameNo: 568
+frame_bool 2nd False
+---------------> 0
+0 93 None
+frame_bool first False
+FrameNo: 569
+frame_bool 2nd False
+---------------> 0
+0 94 None
+frame_bool first False
+FrameNo: 570
+frame_bool 2nd False
+---------------> 0
+0 95 None
+frame_bool first False
+FrameNo: 571
+frame_bool 2nd False
+---------------> 0
+0 96 None
+frame_bool first False
+FrameNo: 572
+frame_bool 2nd False
+---------------> 0
+0 97 None
+frame_bool first False
+motion_end 97
+Distance------------------> 14
+Distance------------------> 19
+Distance------------------> 21
+Distance------------------> 19
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 24
+Distance------------------> 20
+Distance------------------> 21
+Distance------------------> 24
+FrameNo: 573
+frame_bool 2nd False
+---------------> 0
+0 98 None
+frame_bool first False
+FrameNo: 574
+frame_bool 2nd False
+---------------> 0
+0 99 None
+frame_bool first False
+FrameNo: 575
+frame_bool 2nd False
+---------------> 0
+0 100 None
+frame_bool first False
+FrameNo: 576
+frame_bool 2nd False
+---------------> 0
+0 101 None
+frame_bool first False
+FrameNo: 577
+frame_bool 2nd False
+---------------> 0
+0 102 None
+frame_bool first False
+FrameNo: 578
+frame_bool 2nd False
+---------------> 0
+0 103 None
+frame_bool first False
+FrameNo: 579
+frame_bool 2nd False
+---------------> 0
+0 104 None
+frame_bool first False
+FrameNo: 580
+frame_bool 2nd False
+---------------> 0
+0 105 None
+frame_bool first False
+FrameNo: 581
+frame_bool 2nd False
+---------------> 0
+0 106 None
+frame_bool first False
+FrameNo: 582
+frame_bool 2nd False
+---------------> 0
+0 107 None
+frame_bool first False
+FrameNo: 583
+frame_bool 2nd False
+---------------> 0
+0 108 None
+frame_bool first False
+FrameNo: 584
+frame_bool 2nd False
+---------------> 0
+0 109 None
+frame_bool first False
+FrameNo: 585
+frame_bool 2nd False
+---------------> 0
+0 110 None
+frame_bool first False
+FrameNo: 586
+frame_bool 2nd False
+---------------> 0
+0 111 None
+frame_bool first False
+FrameNo: 587
+frame_bool 2nd False
+---------------> 0
+0 112 None
+frame_bool first False
+FrameNo: 588
+frame_bool 2nd False
+---------------> 0
+0 113 None
+frame_bool first False
+FrameNo: 589
+frame_bool 2nd False
+---------------> 0
+0 114 None
+frame_bool first False
+FrameNo: 590
+frame_bool 2nd False
+---------------> 0
+0 115 None
+frame_bool first False
+FrameNo: 591
+frame_bool 2nd False
+---------------> 0
+0 116 None
+frame_bool first False
+FrameNo: 592
+frame_bool 2nd False
+---------------> 0
+0 117 None
+frame_bool first False
+FrameNo: 593
+frame_bool 2nd False
+---------------> 0
+0 118 None
+frame_bool first False
+FrameNo: 594
+frame_bool 2nd False
+---------------> 0
+0 119 None
+frame_bool first False
+FrameNo: 595
+frame_bool 2nd False
+---------------> 0
+0 120 None
+frame_bool first False
+FrameNo: 596
+frame_bool 2nd False
+---------------> 0
+0 121 None
+frame_bool first False
+FrameNo: 597
+frame_bool 2nd False
+---------------> 0
+0 122 None
+frame_bool first False
+FrameNo: 598
+frame_bool 2nd False
+---------------> 0
+0 123 None
+frame_bool first False
+FrameNo: 599
+frame_bool 2nd False
+---------------> 0
+0 124 None
+frame_bool first False
+FrameNo: 600
+frame_bool 2nd False
+---------------> 0
+0 125 None
+frame_bool first False
+FrameNo: 601
+frame_bool 2nd False
+---------------> 0
+0 126 None
+frame_bool first False
+FrameNo: 602
+frame_bool 2nd False
+---------------> 0
+0 127 None
+frame_bool first False
+FrameNo: 603
+frame_bool 2nd False
+---------------> 0
+0 128 None
+frame_bool first False
+FrameNo: 604
+frame_bool 2nd False
+---------------> 0
+0 129 None
+frame_bool first False
+FrameNo: 605
+frame_bool 2nd False
+---------------> 0
+0 130 None
+frame_bool first False
+FrameNo: 606
+frame_bool 2nd False
+---------------> 0
+0 131 None
+frame_bool first False
+FrameNo: 607
+frame_bool 2nd False
+---------------> 0
+0 132 None
+frame_bool first False
+FrameNo: 608
+frame_bool 2nd False
+---------------> 0
+0 133 None

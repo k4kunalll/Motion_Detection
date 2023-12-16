@@ -32,6 +32,8 @@ def main(video_path):
     motion_start_temp = None
     first_frame = None
     next_frame = None
+    centre_point = deque([],maxlen=__APP_SETTINGS__.DOTS_HISTORY)
+    
     if cap.isOpened() is False:
         print("Error opening video file")
     # Read until video is completed
@@ -40,22 +42,28 @@ def main(video_path):
         ret, frame = cap.read()
         if ret is True:
             # frame_list = []
+            frame_bool = False
             frame_no = frame_no + 1
             cv2.rectangle(frame, roi_XminYmin, roi_XmaxYmax, (0, 0, 0), 2)
             first_frame, next_frame = add_filters(frame)
             frame_diff = calc_diff(first_frame, next_frame)
             boxes = bbox(frame_diff, 1)
-            if boxes is not None:
-                frame, motion_start, motion_end = filter_bboxes(
-                    frame, boxes, motion_start, motion_end
-                )
-                frame_list.append(frame)
 
-            else:
+            if boxes is not None:
+                frame, frame_bool, centre_point = filter_bboxes(
+                    frame, boxes, motion_end, centre_point)
+                # frame_list.append(frame)
+
+            if frame_bool is True:
+                motion_start = motion_start + 1
+                motion_end = 0
+
+            if frame_bool is False:
                 motion_end = motion_end + 1
 
+            frame_list.append(frame)
+
             if motion_start == __APP_SETTINGS__.VIDEO_SAVE_FRAMES_THRESH:
-                # make_vid(frame_width, frame_height, frame_list)
                 t1 = threading.Thread(
                     target=make_vid, args=(frame_width, frame_height, frame_list)
                 )
@@ -65,6 +73,11 @@ def main(video_path):
                 frame_list = []
                 motion_start = 0
 
+            if motion_end >= 20:
+                frame_list = []
+                motion_start = 0
+
+            print(centre_point)
             print("FrameNo:", frame_no)
             print("--------------->", len(frame_list))
             print(motion_start, motion_end, motion_start_temp)
@@ -73,7 +86,7 @@ def main(video_path):
             cv2.imshow("frame", frame)
             ch = cv2.waitKey(1)
             if ch & 0xFF == ord("q"):
-                break
+                break            
 
         else:
             break

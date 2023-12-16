@@ -1,0 +1,3 @@
+App Version: 2.0.0
+
+New Feature: Added Euclidian Distance Check to remove FP

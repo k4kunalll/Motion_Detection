@@ -36,5 +36,4 @@ FOR Linux USER:
 
 `__APP_SETTINGS__.DILATION_KERNEL` : `Dilation Filter`
 
-
-
+`__APP_SETTINGS__.MIN_MIX_DIST` : `MIN and MAX distance between two points`

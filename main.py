@@ -49,10 +49,12 @@ def main(video_path):
             frame_diff = calc_diff(first_frame, next_frame)
             boxes = bbox(frame_diff, 1)
 
-            if boxes is not None:
-                frame, frame_bool, centre_point = filter_bboxes(
-                    frame, boxes, motion_end, centre_point)
+            # if boxes is not None:
+            frame, frame_bool, centre_point = filter_bboxes(
+                frame, boxes, motion_end, centre_point)
                 # frame_list.append(frame)
+            
+            frame_list.append(frame)
 
             if frame_bool is True:
                 motion_start = motion_start + 1
@@ -61,7 +63,12 @@ def main(video_path):
             if frame_bool is False:
                 motion_end = motion_end + 1
 
-            frame_list.append(frame)
+            if motion_end == 50 and len(frame_list) >= 50:
+                motion_end = 0
+                frame_list = []
+                motion_start = 0
+                centre_point = deque([],maxlen=__APP_SETTINGS__.DOTS_HISTORY)
+
 
             if motion_start == __APP_SETTINGS__.VIDEO_SAVE_FRAMES_THRESH:
                 t1 = threading.Thread(
@@ -72,14 +79,10 @@ def main(video_path):
                 excel_generator()
                 frame_list = []
                 motion_start = 0
+                centre_point = deque([],maxlen=__APP_SETTINGS__.DOTS_HISTORY)
 
-            if motion_end >= 20:
-                frame_list = []
-                motion_start = 0
-
-            print(centre_point)
             print("FrameNo:", frame_no)
-            print("--------------->", len(frame_list))
+            print("FRAMES FOR VIDEO --------->", len(frame_list))
             print(motion_start, motion_end, motion_start_temp)
             cv2.imwrite(f"images/{frame_no}.jpg", frame)
             frame = imutils.resize(frame, width=1200)

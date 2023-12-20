@@ -7,6 +7,7 @@ from datetime import date,datetime
 import time
 import pandas as pd
 import math
+import psutil
 
 first_frame = None
 next_frame = None
@@ -70,28 +71,23 @@ def make_vid(frame_width, frame_height, image_list, fps=10):
 def filter_bboxes(frame, boxes_coor, motion_end, centre_point):
     # global centre_point
     frame_pass = False
-    print("motion_end",motion_end)
-    centroid = (int((boxes_coor[0]+boxes_coor[2])/2),int((boxes_coor[1]+boxes_coor[3])/2))
 
-
-    if __APP_SETTINGS__.ROI_XY_MIN[0] < centroid[0] < __APP_SETTINGS__.ROI_XY_MAX[0] and __APP_SETTINGS__.ROI_XY_MIN[1] < centroid[1] < __APP_SETTINGS__.ROI_XY_MAX[1]:
-            centre_point.append(centroid)
-            cv2.rectangle(frame, (boxes_coor[0],boxes_coor[1]), (boxes_coor[2],boxes_coor[3]), (0, 255, 0), 2)
+    if boxes_coor is None:
+        pass
     else:
-        if motion_end >= 15:
-            centre_point = deque([],maxlen=__APP_SETTINGS__.DOTS_HISTORY)
-    # else:
-    #     centre_point.append((0,0))
-    # for i in range(len(centre_point)-1):
-    #     if centre_point[i][1] - centre_point[i+1][1] < 0:
-    #         # print(centre_point[i][1] - centre_point[i+1][1], centre_point[i][0] - centre_point[i+1][0])
-    #         cv2.circle(frame,centre_point[i],1,(0, 0, 255), 3)
-            
-    for i in range(len(centre_point)-1):
-        if centre_point[i][1] - centre_point[i+1][1] < 0:
-            cv2.circle(frame,centre_point[i],1,(0, 0, 255), 3)
-            point_distance = int(math.hypot(centre_point[i+1][0] - centre_point[i][0], centre_point[i+1][1] - centre_point[i][1]))
-            # print("Distance------------------>", point_distance)
+        centroid = (int((boxes_coor[0]+boxes_coor[2])/2),int((boxes_coor[1]+boxes_coor[3])/2))
+        if __APP_SETTINGS__.ROI_XY_MIN[0] < centroid[0] < __APP_SETTINGS__.ROI_XY_MAX[0] and __APP_SETTINGS__.ROI_XY_MIN[1] < centroid[1] < __APP_SETTINGS__.ROI_XY_MAX[1]:
+                cv2.rectangle(frame, (boxes_coor[0],boxes_coor[1]), (boxes_coor[2],boxes_coor[3]), (0, 255, 0), 2)
+                if centroid not in centre_point:
+                    centre_point.append(centroid)
+                
+
+    if len(centre_point) >= 2:
+        for i in range(len(centre_point)-1):
+            if centre_point[i][1] - centre_point[i+1][1] < 0:
+                cv2.circle(frame,centre_point[i],1,(0, 0, 255), 3)
+            point_distance = int(math.hypot(centre_point[-2][0] - centre_point[-1][0], centre_point[-2][1] - centre_point[-1][1]))
+            print("Distance------------------>", point_distance)
             if __APP_SETTINGS__.MIN_MIX_DIST[0] < point_distance < __APP_SETTINGS__.MIN_MIX_DIST[1]:
                 frame_pass = True 
                 # print("Distance------------------>", point_distance)
@@ -110,14 +106,14 @@ def excel_generator():
     if not os.path.exists(__APP_SETTINGS__.EXCEL_DIR):
         os.makedirs(__APP_SETTINGS__.EXCEL_DIR)
     if not os.path.exists(os.path.join(__APP_SETTINGS__.EXCEL_DIR,__APP_SETTINGS__.EXCEL_NAME)):
-        df = pd.DataFrame(columns=['Date','Time'])
+        df = pd.DataFrame(columns=['Date','Time', "RAM_USAGE"])
         df.to_csv(os.path.join(__APP_SETTINGS__.EXCEL_DIR,__APP_SETTINGS__.EXCEL_NAME), index=False, header=True)
 
     data_dict = [{"Date":date.today(),
-                "Time":datetime.now().strftime("%H:%M:%S")}]
+                "Time":datetime.now().strftime("%H:%M:%S"),
+                "RAM_USAGE":str(psutil.virtual_memory()[2])+"%"}]
     df = pd.DataFrame.from_dict(data_dict)
     df.to_csv(os.path.join(__APP_SETTINGS__.EXCEL_DIR,__APP_SETTINGS__.EXCEL_NAME), index=False, header=False, mode="a")
-
 
 
     

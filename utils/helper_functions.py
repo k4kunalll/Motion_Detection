@@ -29,6 +29,8 @@ def add_filters(frame):
         first_frame = next_frame
     # Set the next frame to compare (the current frame)prin
     next_frame = gray
+    # framez = imutils.resize(next_frame, width=1200)
+    # cv2.imshow("blur", framez)
     return first_frame, next_frame
 
 

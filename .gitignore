@@ -4,4 +4,6 @@ videos
 *.ipynb
 tempfiles
 generated_videos
+report_excel
+logs
 __pycache__

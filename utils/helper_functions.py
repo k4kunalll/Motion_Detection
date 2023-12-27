@@ -12,6 +12,7 @@ import imutils
 first_frame = None
 next_frame = None
 delay_counter = 0
+prev_length = None
 # centre_point = deque([],maxlen=__APP_SETTINGS__.DOTS_HISTORY)
 
 
@@ -77,9 +78,10 @@ def make_vid(frame_width, frame_height, image_list, fps):
     print("Video Saved")
 
 
-def filter_bboxes(frame, boxes_coor, motion_end, centre_point):
-    # global centre_point
+def filter_bboxes(frame, boxes_coor, centre_point):
+    global prev_length
     frame_pass = False
+    prev_length = len(centre_point)
 
     if boxes_coor is None:
         pass
@@ -106,7 +108,9 @@ def filter_bboxes(frame, boxes_coor, motion_end, centre_point):
             if centroid not in centre_point:
                 centre_point.append(centroid)
 
-    if len(centre_point) >= 2:
+    # print("-------------------------------------------===>>",prev_length , len(centre_point))
+
+    if len(centre_point) >= 2 and prev_length != len(centre_point):
         for i in range(len(centre_point) - 1):
             if centre_point[i][1] - centre_point[i + 1][1] < 0:
                 cv2.circle(frame, centre_point[i], 1, (0, 0, 255), 3)
@@ -123,6 +127,9 @@ def filter_bboxes(frame, boxes_coor, motion_end, centre_point):
                 < __APP_SETTINGS__.MIN_MIX_DIST[1]
             ):
                 frame_pass = True
+
+            else:
+                frame_pass = False
 
     return frame, frame_pass, centre_point
 

@@ -28,12 +28,14 @@ def main(video_path):
     frame_height = int(cap.get(4))
     frame_list = []
     frame_no = 0  # Init frame variables
-    motion_start = 0
-    motion_end = 0
-    motion_start_temp = None
     first_frame = None
     next_frame = None
     centre_point = deque([], maxlen=__APP_SETTINGS__.DOTS_HISTORY)
+    # used to record the time when we processed last frame
+    prev_frame_time = 0
+    # used to record the time at which we processed current frame
+    new_frame_time = 0
+    movement_persistent_counter = 0
 
     if cap.isOpened() is False:
         print("Error opening video file")
@@ -44,6 +46,7 @@ def main(video_path):
         if ret is True:
             try:
                 # frame_list = []
+                text = "Unoccupied"
                 frame_bool = False
                 frame_no = frame_no + 1
                 cv2.rectangle(frame, roi_XminYmin, roi_XmaxYmax, (0, 0, 0), 2)
@@ -53,26 +56,25 @@ def main(video_path):
 
                 # if boxes is not None:
                 frame, frame_bool, centre_point = filter_bboxes(
-                    frame, boxes, motion_end, centre_point
+                    frame, boxes, centre_point
                 )
                 # frame_list.append(frame)
 
-                frame_list.append(frame)
+                # frame_list.append(frame)
 
                 if frame_bool is True:
-                    motion_start = motion_start + 1
-                    motion_end = 0
+                    movement_persistent_counter = (
+                        __APP_SETTINGS__.MOVEMENT_DETECTED_PERSISTENCE
+                    )
 
-                if frame_bool is False:
-                    motion_end = motion_end + 1
+                if movement_persistent_counter > 0:
+                    text = "Movement Detected " + str(movement_persistent_counter)
+                    movement_persistent_counter -= 1
+                    frame_list.append(frame)
+                else:
+                    text = f"No Movement Detected, {movement_persistent_counter}"
 
-                if motion_end == 20 and len(frame_list) >= 20:
-                    motion_end = 0
-                    frame_list = []
-                    motion_start = 0
-                    centre_point = deque([], maxlen=__APP_SETTINGS__.DOTS_HISTORY)
-
-                if motion_start == __APP_SETTINGS__.VIDEO_SAVE_FRAMES_THRESH:
+                if movement_persistent_counter == 1 and len(frame_list) >= 200:
                     t1 = threading.Thread(
                         target=make_vid,
                         args=(
@@ -86,21 +88,55 @@ def main(video_path):
                     t1.join()
                     excel_generator()
                     frame_list = []
-                    motion_start = 0
                     centre_point = deque([], maxlen=__APP_SETTINGS__.DOTS_HISTORY)
+
+                if movement_persistent_counter == 1 and frame_list <= 200:
+                    frame_list = []
+                    centre_point = deque([], maxlen=__APP_SETTINGS__.DOTS_HISTORY)
+
+                cv2.putText(
+                    frame,
+                    str(text),
+                    (10, 35),
+                    cv2.FONT_HERSHEY_SIMPLEX,
+                    0.75,
+                    (255, 255, 255),
+                    2,
+                    cv2.LINE_AA,
+                )
+
+                new_frame_time = time.time()
+                fps = 1 / (new_frame_time - prev_frame_time)
+                prev_frame_time = new_frame_time
+                # converting the fps into integer
+                fps = int(fps)
+                # converting the fps to string so that we can display it on frame
+                # by using putText function
+                fps = str(fps)
+                cv2.putText(
+                    frame,
+                    f"FPS: {fps}",
+                    (10, 150),
+                    cv2.FONT_HERSHEY_SIMPLEX,
+                    0.75,
+                    (255, 255, 255),
+                    2,
+                    cv2.LINE_AA,
+                )
+
+                print("fps:", fps, frame_bool)
+                print(centre_point)
+                print("FrameNo:", frame_no)
+                print("FRAMES FOR VIDEO --------->", len(frame_list))
+                cv2.imwrite(f"images/{frame_no}.jpg", frame)
+                frame = imutils.resize(frame, width=1200)
+                cv2.imshow("frame", frame)
+                ch = cv2.waitKey(1)
+                if ch & 0xFF == ord("q"):
+                    break
 
             except Exception as e:
                 create_log((e, "FRAMES FOR VIDEO --------->", len(frame_list)))
-                break
-
-            print("FrameNo:", frame_no)
-            print("FRAMES FOR VIDEO --------->", len(frame_list))
-            print(motion_start, motion_end, motion_start_temp)
-            # cv2.imwrite(f"images/{frame_no}.jpg", frame)
-            frame = imutils.resize(frame, width=1200)
-            cv2.imshow("frame", frame)
-            ch = cv2.waitKey(1)
-            if ch & 0xFF == ord("q"):
                 break
 
         else:

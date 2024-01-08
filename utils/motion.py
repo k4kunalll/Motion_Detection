@@ -75,7 +75,7 @@ def motion(video_path):
                 else:
                     text = f"No Movement Detected, {movement_persistent_counter}"
 
-                if movement_persistent_counter == 1 and len(frame_list) >= 200:
+                if movement_persistent_counter == 1 and len(frame_list) >= __APP_SETTINGS__.FRAMESAVE_THRESH:
                     t1 = threading.Thread(
                         target=make_vid,
                         args=(
@@ -91,7 +91,7 @@ def motion(video_path):
                     frame_list = []
                     centre_point = deque([], maxlen=__APP_SETTINGS__.DOTS_HISTORY)
 
-                if movement_persistent_counter == 1 and frame_list <= 200:
+                if movement_persistent_counter == 1 and len(frame_list) <= __APP_SETTINGS__.FRAMESAVE_THRESH:
                     frame_list = []
                     centre_point = deque([], maxlen=__APP_SETTINGS__.DOTS_HISTORY)
 

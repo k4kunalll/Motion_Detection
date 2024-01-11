@@ -7,7 +7,7 @@ import time
 import pandas as pd
 import math
 import psutil
-import imutils
+from shapely.geometry import Point, Polygon
 
 first_frame = None
 next_frame = None
@@ -90,14 +90,10 @@ def filter_bboxes(frame, boxes_coor, centre_point):
             int((boxes_coor[0] + boxes_coor[2]) / 2),
             int((boxes_coor[1] + boxes_coor[3]) / 2),
         )
-        if (
-            __APP_SETTINGS__.ROI_XY_MIN[0]
-            < centroid[0]
-            < __APP_SETTINGS__.ROI_XY_MAX[0]
-            and __APP_SETTINGS__.ROI_XY_MIN[1]
-            < centroid[1]
-            < __APP_SETTINGS__.ROI_XY_MAX[1]
-        ):
+        point = Point(centroid)
+        polygon = Polygon(__APP_SETTINGS__.POLY_COOR)
+        
+        if point.within(polygon):
             cv2.rectangle(
                 frame,
                 (boxes_coor[0], boxes_coor[1]),

@@ -2,12 +2,19 @@ from easydict import EasyDict as edict
 
 __APP_SETTINGS__ = edict()
 
-__APP_SETTINGS__.RTSP_LINK = "videos/10.mp4"
+__APP_SETTINGS__.RTSP_LINK = "videos/Demo.mp4"
 
 __APP_SETTINGS__.DOTS_HISTORY = 200
 
-__APP_SETTINGS__.ROI_XY_MIN = (700, 100)
-__APP_SETTINGS__.ROI_XY_MAX = (1450, 950)
+__APP_SETTINGS__.POLY_COOR = [
+            [844, 182],
+            [1092, 230],
+            [1448, 514],
+            [1448, 942],
+            [684, 942],
+            [696, 338],
+            [840, 186],
+        ]
 
 __APP_SETTINGS__.VIDEO_FPS = 30
 __APP_SETTINGS__.VIDEO_PATH = "generated_videos"

@@ -14,6 +14,7 @@ from utils.helper_functions import (
 from datetime import date
 import time
 import threading
+import numpy as np
 
 current_date = date.today()
 current_time = int(time.time())
@@ -21,8 +22,11 @@ current_time = int(time.time())
 
 def motion(video_path):
     global centre_point, current_time, current_date
-    roi_XminYmin = __APP_SETTINGS__.ROI_XY_MIN
-    roi_XmaxYmax = __APP_SETTINGS__.ROI_XY_MAX
+    pts = np.array(
+        __APP_SETTINGS__.POLY_COOR,
+        np.int32,
+    )
+    pts = pts.reshape((-1, 1, 2))
     cap = cv2.VideoCapture(video_path)
     frame_width = int(cap.get(3))
     frame_height = int(cap.get(4))
@@ -50,7 +54,7 @@ def motion(video_path):
                 frame_bool = False
                 frame_no = frame_no + 1
                 print("FrameNo:", frame_no)
-                cv2.rectangle(frame, roi_XminYmin, roi_XmaxYmax, (0, 0, 0), 2)
+                cv2.polylines(frame, [pts], True, (0, 0, 0), 2)
                 first_frame, next_frame = add_filters(frame)
                 frame_diff = calc_diff(first_frame, next_frame)
                 boxes = bbox(frame_diff, 1)
@@ -75,7 +79,10 @@ def motion(video_path):
                 else:
                     text = f"No Movement Detected, {movement_persistent_counter}"
 
-                if movement_persistent_counter == 1 and len(frame_list) >= __APP_SETTINGS__.FRAMESAVE_THRESH:
+                if (
+                    movement_persistent_counter == 1
+                    and len(frame_list) >= __APP_SETTINGS__.FRAMESAVE_THRESH
+                ):
                     t1 = threading.Thread(
                         target=make_vid,
                         args=(
@@ -91,7 +98,10 @@ def motion(video_path):
                     frame_list = []
                     centre_point = deque([], maxlen=__APP_SETTINGS__.DOTS_HISTORY)
 
-                if movement_persistent_counter == 1 and len(frame_list) <= __APP_SETTINGS__.FRAMESAVE_THRESH:
+                if (
+                    movement_persistent_counter == 1
+                    and len(frame_list) <= __APP_SETTINGS__.FRAMESAVE_THRESH
+                ):
                     frame_list = []
                     centre_point = deque([], maxlen=__APP_SETTINGS__.DOTS_HISTORY)
 
